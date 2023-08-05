@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <!-- password -->
+     <script type="text/javascript">
+      var password;
+      var correctpassword="123";
+      password=prompt('Please enter the password to view this case study:','');
+      if (password==correctpassword)
+   ;
+      else
+      {
+        alert ('Password is not correct.')
+        window.location="http://www.jasonandrews.net";
+      }
+      </script>
+     <title>Jason Andrews - Product Designer</title>
+     <link rel="icon" href="images/ja-logo.png" type="image/x-icon" />
+     <link rel="shortcut icon" href="images/ja-logo.png" type="image/x-icon" /> 
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="index.css" rel="stylesheet" type="text/css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    </head>  
+   <body>
+       <!-- header -->
+       <header id="header">
+        <div class="headerInner">
+          <a href="index.html"><img src="images/ja-logo.png" class="logo"></a>
+          <nav>
+             <ul class="mainNav">
+              <li class="navCollapse"><a href="index.html">About</a></li>
+                <li class="navCollapse"><a href="work.html">Work</a></li>
+                <li class="navCollapse"><a href="blog.html">Blog</a></li>
+                <li class="navCollapse"><a href="documents/Resume_Jason_Andrews.pdf" target="_blank">Resume</a></li>
+                <li id="mobileNav" class="mobileNav">Menu</li>
+                <li class="contactButton"><a href="mailto:jasonwesleyandrews@gmail.com">Contact</a></li>
+             </ul>
+            </nav>
+          </div>
+          <ul class="subNav">
+            <a href="index.html"><li class="subNavItem">About</li></a>
+            <hr>
+            <a href="work.html"><li class="subNavItem">Work</li></a>
+            <hr>
+            <a href="blog.html"><li class="subNavItem">Blog</li></a>
+            <hr>
+            <a href="documents/Resume_Jason_Andrews.pdf" target="_blank"><li class="subNavItem">Resume</li></a>      
+          </ul>
+    </header>
+    <!-- modal BG -->
+<div id="grayBG" class="grayBG"></div>
+     <!-- case study -->
+     <aside>
+      <a href="index.html"><img src="images/ja-logo.png" class="logoSidebar"></a>
+      <h2>My Work</h2>
+      <hr style="width: 180px; margin-left: 0px;">
+      <ul>
+        <li class="sideLinks"><a href="moveabroad.html">Move Abroad</a></li>
+        <li class="sideLinks"><a href="#">Routing Slip</a></li>
+        <li class="sideLinks"><a href="familybilling.html">Family Billing</a></li>
+        <li class="sideLinks"><a href="gap.html">Georgia Animal Project</a></li>
+        <li class="sideLinks"><a href="bonsaioutlet.html">BonsaiOutlet.com</a></li>
+        <li class="sideLinks"><a href="energygov.html">Energy.gov</a></li>
+        <li class="sideLinks"><a href="bucketbook.html">Bucket Book</a></li>
+        <!-- Add more blog links as needed -->
+      </ul>
+    </aside> 
+<main style="background-color: #ffffff;">
+  
+  <div class="scrollContentRight">
+    <article>
+      <!-- Blog content goes here -->
+     <div class="heading">
+      <div class="caseStudyLogos">
+       <img src="images/RSImages/RS Title.png" class="caseStudySmallImgNoBorder">
+      </div>
+      <h3>UX Design Case Study</h3>
+      <p>Feature design for a dental practice management software company as a part of a cross-functional team.</p>
+    </div>
+    <div class="imgLimit">
+    <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
+    </div>
+
+    <h3>The Problem</h3>
+    <p>Dental practice management software users want a way to print a document that can be used to view and record pertinent information during patient appointments.</p>
+    <h3>The Solution</h3>
+    <p>A customizable software feature within our product that allows users to print routing slips with all of the necessary information for the entire day’s schedule and/or an individual appointment.</p>
+    <h3>The User</h3>
+    <p>Someone who works in the front office for a dentist, orthodontist, or oral surgeon. Typically the office manager, or some type of patient-facing front desk worker.</p>
+    <h3>The Goal</h3>
+    <p>To help our customers by giving their staff the tools that they need to efficiently see patients. A reduction in our customer's labor cost makes our software more valuable.</p>
+    <h3>The Process</h3>
+     <div class="designIcons">
+      <a href="#empathizeBB"><img src="images/designIcons/empathize_icon.png" class="designIcon"></a>
+      <a href="#defineBB"><img src="images/designIcons/define_icon.png" class="designIcon"></a>
+      <a href="#ideationBB"><img src="images/designIcons/ideate_icon.png" class="designIcon"></a>
+      <a href="#prototypingBB"><img src="images/designIcons/prototype_icon.png" class="designIcon"></a>
+      <a href="#testingBB"><img src="images/designIcons/test_icon.png" class="designIcon"></a>
+     </div>
+     <h3 id="empathizeBB">Empathize / Research</h3>
+     <p>This feature was requested by our customers and prioritized by the business. I started this project by having a kick off meeting with my team, which included the product line manager, product owner, lead developer, and myself as the UX designer. We did a know / don’t know exercise to determine what we needed to learn from customers. We also looked at some examples of competitors who have a similar offering, and reviewed customer feedback where they specifically requested this feature.</p>
+     <div class="caseStudyDoubleImgContainer">
+      <div class="caseStudyDoubleImg"> 
+        <img src="images/RSImages/competitor_slips.png" class="caseStudySmallImg">
+      </div>
+      <div class="caseStudyDoubleImg"> 
+        <img src="images/RSImages/RS_know_dont_know.png" class="caseStudySmallImg">
+      </div>
+   </div>
+  
+    <p>I moved the project forward by interviewing front office workers to gain qualitative data on how this document would be used in the office, and we sent out a survey to gain quantitative data, specifically to learn what data our users would find most useful on this document. Below is a list of the questions that we wanted answers to:</p>
+    <ul>
+     <li>How valuable is this to our customers?</li>
+     <li>Which staff members would use this feature? How?</li>
+     <li>What information would be on the document? Why?</li>
+     <li>Does the routing slip need to be customizable? How?</li>
+     <li>What would our customers expect this to be called?</li>
+     <li>Where do our customers expect to find and print this document? Why?</li>
+     <li>What are our customers currently doing to meet their needs without this feature?</li>
+    </ul>
+
+      <h3 id="defineBB">Define</h3>
+    <p>After interviewing 3 users and surveying 6 on the week of 5/23/22. I synthesized the findings by creating affinity diagrams for the interview and survey insights, then looked over the points and discussed the themes with the product owner. I created separate affinity diagrams because there was some overlap between who was interviewed and surveyed, and I didn’t want this to skew the results.</p>
+    <div>
+      <img src="images/RSImages/RS_affinity_diagram1.png" class="caseStudyLargeImg">
+   </div>
+   <p>Below is an overview of my findings:</p>
+   <ul>
+    <li>5 out of 6 surveyed find this feature useful.</li>
+    <li>Users who were interviewed rated this feature an average of 3.66 out of 5 in terms of value.</li>
+    <li>Most of our customers are finding ways to create this document from scratch, by printing their own custom routing slips.</li>
+    <li>66% of our customers who were interviewed called this feature a “routing slip.”</li>
+    <li>Users did not express much need to have a record of which staff member printed the form.</li>
+    <li>Users expressed an interest in being able to customize the form.</li>
+    <li>100% of users want the ability to batch print the forms before the start of the day.</li>
+    <li>100% of users want the ability to print forms individually for one appointment at a time.</li>
+   </ul>
+      <p>I made a persona of the customer to help myself and the team empathize with the people that we were designing this feature for:</p>
+        <div>
+          <img src="images/RSImages/Persona_RS.png" class="caseStudySmallImgNoBorder">
+        </div>
+    
+
+      
+
+  
+     
+      
+        <h3 id="ideationBB">Ideation</h3>
+      <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the MoSCoW prioritization method during a team brainstorming session to narrow down what to include on the actual routing slip. Below is the design for the routing slip .pdf:</p>
+     
+     
+      
+      <div class="caseStudyMedImgContainer">
+          <img src="images/RSImages/Routing_slip1.jpg" class="caseStudyMedImg">
+        </div>
+        <p>Based on my customer interviews, I gained an understanding of how this feature would be used. I created user flows on how to access the settings to turn it on and customize which content would print, as well as the 3 ways that the user can actually print a routing slip.</p>
+     
+           <div>
+            <img src="images/RSImages/Routing Slip User Flow.png" class="caseStudySmallImgNoBorder">
+          </div>
+        <h3 id="prototypingBB">Prototyping</h3>
+       
+      
+        
+        <p>I built a clickable prototype in Figma that demonstrated all of the user flows required to turn on and customize routing slips, and well as the 3 ways that the user can actually print the routing slip. Below are screen shots of the settings screen where the user can turn on content sections, and select which procedures to include on the routing slip:</p>
+        
+        <div class="caseStudyDoubleImgContainer">
+          <div class="caseStudyDoubleImg"> 
+            <img src="images/RSImages/C_UI_pick_procedures.png" class="caseStudySmallImg">
+          </div>
+          <div class="caseStudyDoubleImg"> 
+            <img src="images/RSImages/C_UI_change_procedures.png" class="caseStudySmallImg">
+          </div>
+       </div>
+       <p>Below are screen shots of the UI where users can print routing slips for individual appointments:</p>
+        
+        <div class="caseStudyDoubleImgContainer">
+          <div class="caseStudyDoubleImg"> 
+            <img src="images/RSImages/Appointment_pop_over.png" class="caseStudySmallImg">
+          </div>
+          <div class="caseStudyDoubleImg"> 
+            <img src="images/RSImages/Appointment_card_dialogue.png" class="caseStudySmallImg">
+          </div>
+       </div>
+      
+            <h3 id="testingBB">Testing</h3>
+           
+                <p>I conducted usability testing with 3 users on 6/23 and 6/27. I wanted to answer these questions with my usability tests:</p>
+                <ul>
+                  <li>Can users find the settings page to turn on the routing slip feature?</li>
+                  <li>Can users customize their routing slip?</li>
+                  <li>What are the users thoughts about the settings?</li>
+                  <li>Do users prefer a card layout on the settings page?</li>
+                  <li>What do users think of alphabetized menus?</li>
+                  <li>Can users batch print all of the routing slips for a day?</li>
+                  <li>Can users print a routing slip for an individual appointment?</li>
+                  <li>What do users think of the layout of the routing slip?</li>
+                  <li>What do users think of the content on the routing slip?</li>
+               </ul>
+               <p>The UX team has been working toward a card-based design for new pages so that the cards can stack when viewed on smaller screens. I did an A/B test to see what users thought of using cards for the settings page compared to the product's current settings design. Below are screenshots of the two different designs:</p>
+                <div class="caseStudyDoubleImgContainer">
+                  <div class="caseStudyDoubleImg"> 
+                    <img src="images/RSImages/Old_settings.png" class="caseStudySmallImg">
+                  </div>
+                  <div class="caseStudyDoubleImg"> 
+                    <img src="images/RSImages/New_Settings.png" class="caseStudySmallImg">
+                  </div>
+               </div>
+             
+                <p>These are the key takeaways from the tests:</p>
+                <ul>
+                    <li>Users were able to easily find and change the routing slip settings.</li>
+                    <li>Users were easily able to print routing slips for the entire day, or an individual appointment.</li>
+                    <li>Initially we were calling the additional content sections “Content Blocks” this confused users because they thought that turning that toggle on in the settings would block the content. So we changed it to “Display Additional Information” and this tested well.</li>
+                    <li>One user pointed out that there was no way to tell from the settings window which content is included in each section from the settings, we could solve this by adding a tooltip that appears on hover of each toggle that lists the info that will be displayed if that section is enabled. (Which we did.)</li>
+                    <li>In the design of this feature, I arranged the menus that links were added to in alphabetical order. This tested well with users and aligns with UX best practices. When adding “Routing Slips” to the Practice Settings menu, and “Print Routing Slips” to the Actions panel of the schedule’s day view, I recommend that we order those lists alphabetically. (Which we did.)</li>
+                 <li>66% of the users thought the card-based settings page was more convenient and simpler because it saves the user two clicks and has a smaller footprint, eliminating the need to scroll. 33% of users thought it was confusing because it operated differently than all of the other settings pages. Based on this test alone, I would have recommended implementing the new settings style, but we decided to hold off because we had not considered all of the other settings pages in the system. It would be ideal to do some research and update them all at the same time.</li>
+                  </ul>
+                  
+                  <div class="imgLimit">
+                    <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
+                 </div>
+                  
+              
+                    <h3>Conclusion</h3>
+                    <p>This feature is now dev-complete, it went into production December of 2022. The next step is to interview customers who are using this feature to learn if they are experiencing any issues with usability. I’d also like feedback on the layout of the actual routing slip as well as the content on it. I will use this information to make recommendations to the business about ways that we can iterate in the future to make this feature more valuable to our customers.</p>
+                      
+   <!-- Add more content as needed -->
+  </article>
+</div>
+</main>
+<section>
+<footer>
+  <div class="footerInner">
+   <p class="copyright">© 2023</p>
+   <div class="footerLinks">
+    <a href="https://www.linkedin.com/in/jason-wesley-andrews/" target="_blank"><img src="images/linkedin_logo_light.png" class="footerIcons"></a>
+    <a href="mailto:jasonwesleyandrews@gmail.com"><img src="images/mail_logo_light.png" class="footerIcons"></a>
+   </div>
+  </div>
+ </footer>
+</body>
+<script src="index.js"></script>
+</html>

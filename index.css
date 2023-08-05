@@ -1,0 +1,676 @@
+/* general styles */
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: #F8F8F8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000; 
+ 
+}
+.grayBG {
+    position: fixed;
+    display: none;
+    background-color: gray;
+    height: 100%;
+    width: 1200px;
+    opacity: 85%;    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    z-index: 4;
+}
+
+article {
+    width: 100%;
+    max-width: 900px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.scrollContentRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-left: 216px;
+    
+}
+
+.logo {
+    width: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+}
+
+.logoSidebar {
+    width: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;   
+}
+
+li:hover {
+    color: #000000;
+}
+
+
+/* header styles */
+
+#header {
+    transition: top .3s ease-in-out;
+    top: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 1px 2px #CECECE;
+    position: fixed;  
+    width: 100%;
+    z-index: 1;
+}
+
+.headerInner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 60px   
+}
+
+ul {
+    font-size: 14px;
+    line-height: 2;
+   
+}
+
+header ul { 
+    list-style-type: none;  
+    font-size: 14px;
+    
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    font-size: 14px;
+
+}
+nav {display: flex;
+     flex-direction: row;
+    margin: 0px;
+    }
+.mobileNav { display: none;
+             cursor: pointer;
+}
+.mobileNav:hover {
+    box-shadow: 0px 2px 4px #CECECE;
+    color: #000000;
+    } 
+.subNav {
+    display: none;
+    list-style-type: none;
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    z-index: -1;
+    padding-bottom: 12px;
+    padding-top: 60px;
+}
+
+.subNavItem {
+    margin-left: 8px;
+}
+
+.current a {
+    color: #000000;
+    text-decoration: underline;
+}
+li { 
+    padding: 8px 8px;
+         
+}
+
+.sideLinks {
+    padding: 4px 0px;
+    padding-right: 16px;
+    margin-left: 0px;
+}
+
+.mainNav li {
+    margin: 12px;
+}
+
+.contactButton a {
+    color:white;
+}
+
+.contactButton {
+    border-radius: 4px ;
+    background-color: #000000;
+    color: white;
+}
+
+.contactButton:hover {
+    box-shadow: 0px 4px 8px #CECECE;
+    color: #fff;
+    background-color: #343434;
+}
+
+li.contactButton {
+    margin-right: 0px;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: baseline;  
+}
+
+  /* text styles */ 
+  b, strong {
+    font-weight: bold;
+}
+
+p { 
+    line-height: 2;
+    font-size: 14px;
+    margin-top: 0px;
+    
+}
+
+h1 {
+  font-size: 38px;
+  white-space: nowrap;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 22px;
+    white-space: nowrap;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 24px !important;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+h4 {
+    font-size: 38px;
+    white-space: nowrap;
+    font-weight: 100; 
+    color: #ffffff;
+    margin: 16px; 
+}
+
+h5 {
+    font-size: 22px;
+    margin: 20px 0px 0px 0px;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.heading {
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subHeading {
+    display: flex;
+    justify-content: center;
+}
+.caseStudy p {
+    font-size: 14px;  
+}
+/* home page styles */
+
+.mainIcons { height: 22px;}
+
+/* about me page styles */
+.heading {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.aboutMeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top:16px
+    
+}
+.aboutMeContent {
+    width: 100%;
+    max-width: 900px;
+    padding-bottom: 20px;
+
+}
+.aboutMeImg {
+   width: 250px;
+   float: right;
+   margin: 5px 0px 20px 20px;
+   border-radius: 4px;
+   box-shadow: 4px 4px 8px #CECECE;
+}
+.aboutMeImgLeft {
+    width: 250px;
+    float: left;
+    margin: 5px 20px 20px 0px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px #CECECE;
+}
+
+/* my work styles on Home page */
+.myWorkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+
+.myWork {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 12px 0px;  
+}
+
+.caseStudy {
+    background-color: white;
+    width: 319px;
+    height: 319px;
+    text-align: center;
+    overflow: hidden;
+    margin: 12px;
+    box-shadow: 2px 2px 4px #CECECE;
+    border-radius: 4px;
+    transition: all .2s ease-out;
+}
+
+.caseStudyPic {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* case study styles for individual pages */
+.caseStudyLogos {
+    max-width: 320px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outcomesOverOutput_img {
+    max-width: 260px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.GAPlogo {
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.caseStudyDoubleImgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caseStudyStackedImgContainer {
+     display: flex;
+     flex-direction: column;
+     width: 49%; 
+}
+
+.caseStudyThreeImgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ThreeImgContainer {
+    width: 49%;
+}
+
+.caseStudyDoubleImg {
+    width: 49%;
+}
+
+.doubleImgRowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.doubleRowImg {
+    width: 100%;
+}
+
+.imgLimit {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.designIcons {
+    display: flex;
+    justify-content: space-between;
+    transition: all .2s ease-out;
+    margin-top: 20px;
+}
+
+.designIcon {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #000000;
+    border-width: 1px;
+    transition: all .2s ease-out;  
+}
+
+.designIcon:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 8px #CECECE;   
+}
+
+/* for routing slip .doc */
+.MedImgWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.caseStudyMedImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.caseStudyMedImg{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px #CECECE;
+    margin-bottom: 10px;
+}
+
+.caseStudyLargeImg {
+    width: 100%;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px #CECECE;
+    margin-bottom: 10px;
+}
+
+.caseStudySmallImg {
+    width: 100%;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px #CECECE;
+    margin-bottom: 10px;
+}
+
+.caseStudySmallImgNoBorder {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blockQuoteContainer {
+    display: flex;
+    justify-content: flex-end;
+    color: #9B9A9A;
+}
+
+.blockquote {
+    font-size: 18px ;
+    font-weight: 100;
+    max-width: 66%;  
+    padding: 20px 0px 20px 0px;  
+}
+
+aside {
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 70px;
+    width: 200px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-left: 16px;
+    padding-top: 10px;
+    z-index: 0;
+  }
+
+
+.textLink {
+   
+    text-decoration: underline; 
+   
+}
+
+
+/* footer styles*/
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:65px;
+    width: 100%;
+    position: relative;
+    z-index: 3;  
+}
+
+.footerInner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px; 
+    width: 100%;    
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 2px;  
+}
+
+.footerIcons {
+    height: 22px;
+    padding: 16px;
+    padding-right: 0px;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+
+.caseStudy:hover {
+    transform: scale(1.03); 
+}
+
+/* media queries */ 
+@media (max-width: 740px) {
+
+.designIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+
+.aboutMeContainer {
+    padding-left: 12px;
+    padding-right: 12px;   
+}
+
+.imgLimit {
+    width: 100%;
+      
+}
+
+.caseStudyDoubleImgContainer {
+    flex-direction: column;
+}
+
+.caseStudyDoubleImg {
+    width: 100%;
+}
+
+.aboutMeImg {
+    width: 49%;
+    margin: 5px 0px 10px 16px; 
+}
+
+.aboutMeImgLeft {
+    width: 49%;
+    margin: 5px 16px 10px 0px; 
+}
+
+.navCollapse {
+    display: none;
+} 
+
+.mobileNav { 
+    display: flex; 
+    border-radius: 4px ;
+    border-color: #000000;
+    border-style: inset;
+    border-width: thin;
+    margin: 0px 10px;
+    padding: 7px;
+    justify-content: center;
+    width: 41px;
+}
+
+.mainNav {
+    padding: 0;  
+}
+
+aside {
+    display: none;
+}
+
+.scrollContentRight {
+
+    margin-left: 0px;
+}
+
+article {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.myWorkContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.myWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+
+.caseStudy {
+    width: 100%;
+    height: 355px;
+    margin: 12px 0px 12px 0px;
+}  
+
+.headerInner {
+    padding-left: 12px;
+    padding-right: 12px; 
+}
+
+.footerInner {
+    padding-left: 12px;
+    padding-right: 12px;     
+}
+}
+
+@media (max-width: 900px) { 
+ }
+ .caseStudyMedImg{
+     width: 100%
+}
+}
