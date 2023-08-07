@@ -36,35 +36,18 @@ $("#mobileNav").on("click", function() {
   //header hide on scroll //
 
 
-  /*
+  
     var prevScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
     window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollPos > currentScrollPos) {
+      if (prevScrollPos >= currentScrollPos) {
         header.style.top = "0";
       } else {
         header.style.top = "-65px";
       }
       prevScrollPos = currentScrollPos;
     };
-  */
+ 
 
-  //header hide on scroll //
-
-  var header = document.getElementById("header");
-var headerHeight = header.offsetHeight;
-var prevScrollPos = window.pageYOffset;
-
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos <= headerHeight) {
-    header.style.top = "0";
-  } else if (prevScrollPos > currentScrollPos) {
-    header.style.top = "0";
-  } else {
-    header.style.top = "-" + headerHeight + "px";
-  }
-  prevScrollPos = currentScrollPos;
-};
