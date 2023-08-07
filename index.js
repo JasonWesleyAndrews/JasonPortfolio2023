@@ -36,7 +36,7 @@ $("#mobileNav").on("click", function() {
   //header hide on scroll //
 
 
-  //
+  /*
     var prevScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
@@ -49,7 +49,9 @@ $("#mobileNav").on("click", function() {
       }
       prevScrollPos = currentScrollPos;
     };
-  //
+  */
+
+  //header hide on scroll //
 
   var header = document.getElementById("header");
 var headerHeight = header.offsetHeight;
