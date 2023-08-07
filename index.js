@@ -35,6 +35,8 @@ $("#mobileNav").on("click", function() {
 
   //header hide on scroll //
 
+
+  //
     var prevScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
@@ -47,4 +49,20 @@ $("#mobileNav").on("click", function() {
       }
       prevScrollPos = currentScrollPos;
     };
-  
+  //
+
+  var header = document.getElementById("header");
+var headerHeight = header.offsetHeight;
+var prevScrollPos = window.pageYOffset;
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos <= headerHeight) {
+    header.style.top = "0";
+  } else if (prevScrollPos > currentScrollPos) {
+    header.style.top = "0";
+  } else {
+    header.style.top = "-" + headerHeight + "px";
+  }
+  prevScrollPos = currentScrollPos;
+};
