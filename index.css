@@ -85,6 +85,7 @@ li:hover {
 #header {
     transition: top .3s ease-in-out;
     top: 0;
+    
 }
 
 header {
