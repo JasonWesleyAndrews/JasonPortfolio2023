@@ -35,10 +35,16 @@ $("#mobileNav").on("click", function() {
 
   //header hide on scroll //
   
+
+
+
+
+  
     var prevScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
     window.onscroll = function() {
+      if (window.innerWidth > 600){
       var currentScrollPos = window.pageYOffset;
       if (prevScrollPos > currentScrollPos) {
         header.style.top = "0";
@@ -46,11 +52,11 @@ $("#mobileNav").on("click", function() {
         header.style.top = "-65px";
       }
       prevScrollPos = currentScrollPos;
+    }
     };
- 
 
+    /*
+    if (window.scrollY === 0)
 
-
-
-
-   
+    if (window.innerWidth > 600)
+    */
