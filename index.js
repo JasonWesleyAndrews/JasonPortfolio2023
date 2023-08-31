@@ -34,12 +34,10 @@ $("#mobileNav").on("click", function() {
   x.addListener(myFunction)
 
   //header hide on scroll //
-  
 
 
-
-
-  
+    /*
+    if (window.scrollY === 0)
     var prevScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
@@ -54,9 +52,5 @@ $("#mobileNav").on("click", function() {
       prevScrollPos = currentScrollPos;
     }
     };
-
-    /*
-    if (window.scrollY === 0)
-
     if (window.innerWidth > 600)
     */
