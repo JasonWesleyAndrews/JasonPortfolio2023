@@ -220,16 +220,14 @@
                     <li>In the design of this feature, I arranged the menus that links were added to in alphabetical order. This tested well with users and aligns with UX best practices. When adding “Routing Slips” to the Practice Settings menu, and “Print Routing Slips” to the Actions panel of the schedule’s day view, I recommend that we order those lists alphabetically. (Which we did.)</li>
                  <li>66% of the users thought the card-based settings page was more convenient and simpler because it saves the user two clicks and has a smaller footprint, eliminating the need to scroll. 33% of users thought it was confusing because it operated differently than all of the other settings pages. Based on this test alone, I would have recommended implementing the new settings style, but we decided to hold off because we had not considered all of the other settings pages in the system. It would be ideal to do some research and update them all at the same time.</li>
                   </ul>
-                  
-                  <div class="imgLimit">
-                    <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
-                 </div>
-                  
               
                     <h3>Conclusion</h3>
                     <p>This feature reached development completion and was deployed into production in December 2022. In the post-release phase of the feature, I conducted interviews with users, monitored feedback in UserVoice, and personally visited two offices utilizing the new functionality. Through these interactions, I identified two technical challenges that required resolution. Firstly, there was a performance issue where attempting to print a substantial number of routing slips in certain scenarios could lead to timeouts and hinder other functionalities, such as appointment bookings. This was successfully addressed by implementing batch requests, promptly resolved by my development team. The second challenge involved a page break bug causing misalignment of printed routing slips. To rectify this, we ensured that if a routing slip spanned multiple pages, its content would occupy two full pages, preventing offset issues.</p>
                       
-   <!-- Add more content as needed -->
+                    <div class="imgLimit">
+                      <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
+                   </div>
+
   </article>
 </div>
 </main>
