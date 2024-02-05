@@ -4,7 +4,7 @@
      <!-- password -->
   <script type="text/javascript">
       var password;
-      var correctpassword="123";
+      var correctpassword="1";
       password=prompt('Please enter the password to view this case study:','');
       if (password==correctpassword)
    ;
@@ -77,14 +77,14 @@
 
     <div class="heading">
       <div class="caseStudyLogos">
-        <img src="images/familyBillingImages/Family Billing Title.png" class="caseStudySmallImgNoBorder">
+        <img src="images/AppointmentAlertsImages/AppointmentAlertsMock.png" class="caseStudySmallImgNoBorder">
      </div>
       <h3>UX Design Case Study</h3>
-      <p>Feature improvement for dental practice management SaaS, I was the UX designer on a cross-functional team.</p>
+      <p>Feature design for dental practice management SaaS, I was the UX designer on a cross-functional team.</p>
   </div>
 
   <div class="imgLimit">
-    <img src="images/familyBillingImages/Family Billing Mock.png" class="caseStudySmallImgNoBorder">
+    <img src="images/AppointmentAlertsImages/AppointmentAlertsMock.png" class="caseStudySmallImgNoBorder">
  </div>
 
     <h3>The Problem</h3>
@@ -105,19 +105,28 @@
      </div>
      <h3 id="empathizeBB">Empathize / Research</h3>
      <p>The business prioritized ‘family billing’ because of customer requests on UserVoice. This project was originally assigned to another designer at the company who conducted the initial research. This involved 6 customer interviews to uncover the general pain points and competitive analysis of 4 dental practice management software solutions for this same issue.</p>
+     <p>What We Wanted to Learn:</p>
+     <ul>
+        <li>During the scheduling process do users want to be notified if a patient has other appointments? At what point in the process? What type of notification? For what type of appointment?</li>
+        <li>What type of practice do they work at?</li>
+        <li>Why do they want this feature?</li>
+        <li>How would they use this feature?</li>
+     </ul>
+     
+     <div class="imgLimit">
+        <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudySmallImgNoBorder">
+     </div>
 
      <div class="caseStudyDoubleImgContainer">
-      <div class="caseStudyDoubleImg"> 
-        <img src="images/familyBillingImages/comp_analysis_famBilling.png" class="caseStudySmallImg">
-      </div>
-      <div class="caseStudyDoubleImg"> 
-        <img src="images/familyBillingImages/stickyOnInvoice.png" class="caseStudySmallImg">
-      </div>
-   </div>
-   <blockquote class="blockquote">
-    <em>“
-      It's time-consuming and expensive to print out all these bills and add up the totals, but more importantly, it makes our practice look unprofessional and a little foolish. Patients have commented about our waste of paper.”</em> - Sarah B. (user)
-   </blockquote>
+        <div class="caseStudyDoubleImg"> 
+          <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudySmallImg">
+        </div>
+        <div class="caseStudyDoubleImg"> 
+          <img src="images/AppointmentAlertsImages/SarahWilsonPersona.png" class="caseStudySmallImg">
+        </div>
+     </div>
+   
+   
    <p>This is a screenshot of the original ledger design. It only allowed for invoices to be printed one at a time:</p>
    <div>
      <img src="images/familyBillingImages/Old Individual Ledger (No Combined Ledger).png" class="caseStudyLargeImg">
@@ -127,20 +136,20 @@
     <h3 id="defineBB">Define</h3>
    <p>The customer interviews and competitive research informed our product line manager enough to create some brief requirements for this epic. The output was this user story map that served as a roadmap for developing these features.</p>
     
-   <div class="caseStudyMedImgContainer">
-    <img src="images/familyBillingImages/Userstorymapping_FamBill.png" class="caseStudyMedImg">
- </div>
 
     <p>Once the original designer got to the ideation phase, she could not get buy-in for her solution because it involved too much change; I was asked by the UX manager to come in and pair with her to help make progress, this involved us taking a step back. After I was up-to-speed, the original designer was let go and this project was reassigned to me.</p>
     
         <h3 id="ideationBB">Ideation</h3>
       <p>The problem was clear, but the solution was not. Many other dental practice management systems are account based, this means that there is an account that you add patients to, and the designated guarantor of that group pays for everyone in that group. Our system is not like this, it's patient based. This means that each patient must define who their guarantor is and no real “group” has been established, just a spider web of connections.</p>
-    <p>Since these relationships were already created by our users for their patients, and it can be quite complex, I thought the best move was to redesign the ledger to have tabs that will show a patient’s individual ledger, a combined ledger for the patients that this person is the guarantor for, and/or a combined ledger for the patient’s that are guaranteed by this person. That’s right, a patient who is not self-responsible can be the guarantor of other patients. I sketched this up to share with my team so that we could talk it through.</p>
    
-    <div class="caseStudyMedImgContainer">
-      <img src="images/familyBillingImages/sketch.jpg" class="caseStudyMedImg">
-   </div>
+      <div>
+        <img src="images/AppointmentAlertsImages/UserFLow1.png" class="caseStudySmallImgNoBorder">
+      </div>
    
+      <p>Since these relationships were already created by our users for their patients, and it can be quite complex, I thought the best move was to redesign the ledger to have tabs that will show a patient’s individual ledger, a combined ledger for the patients that this person is the guarantor for, and/or a combined ledger for the patient’s that are guaranteed by this person. That’s right, a patient who is not self-responsible can be the guarantor of other patients. I sketched this up to share with my team so that we could talk it through.</p>
+    <div>
+      <img src="images/familyBillingImages/sketch.jpg" class="caseStudySmallImgNoBorder">
+    </div>
       <p>We all agreed that we should move forward in this direction. Using Figma, I created mockups of every variation that could exist in the system by creating a complex family example.</P>
         <div>
           <img src="images/familyBillingImages/Relationships_screenshots_famBilling.png" class="caseStudySmallImgNoBorder">
@@ -152,11 +161,9 @@
                   <li>(Guarantor For) Shows this patient’s combined guarantor ledger.</li>
                   <li>(Guaranteed By) Shows the combined ledger for this patient’s guarantor.</li>
                </ul>
-              
-
-             <div class="caseStudyMedImgContainer">
-              <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyMedImg">
-           </div>
+               <div>
+                <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyLargeImg">
+             </div>   
         <p>This solution involves allowing the user to view either a patient’s individual ledger, or a guarantor’s ledger, which will include all of the patients that they are financially responsible for. Statements and account history can then be printed as an individual or guarantor.
           We wanted to give the user the option to print guarantor statements in 2 ways, either as a combined statement, or as individual statements. This would give the most complicated patient’s 5 print options.
           </p>
@@ -212,11 +219,9 @@
                 <li>66% of users complain of inaccurate totals in ledger.</li>
              </ul>
              <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
-              
-
-               <div class="caseStudyMedImgContainer">
-                <img src="images/familyBillingImages/Affinity_Diagram_FamBilling.png" class="caseStudyMedImg">
-             </div>
+               <div>
+                <img src="images/familyBillingImages/Affinity_Diagram_FamBilling.png" class="caseStudyLargeImg">
+               </div>  
              
                 <h6>Additional Requests From Users:</h6>
                 <ul>
