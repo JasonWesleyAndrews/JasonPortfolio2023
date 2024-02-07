@@ -110,10 +110,13 @@ header {
     height: 60px   
 }
 
+ol {
+    font-size: 14px;
+    line-height: 2;  
+}
 ul {
     font-size: 14px;
     line-height: 2;
-   
 }
 
 header ul { 
