@@ -230,28 +230,35 @@ h2 {
     white-space: nowrap;
     margin-top: 16px;
     margin-bottom: 10px;
+    font-weight: 400;
+   
 }
 h3 {
     font-size: 24px !important;
     margin-top: 8px;
     margin-bottom: 0px;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 32px;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-weight: 400;
 }
 
 h5 {
     font-size: 22px;
     margin: 20px 0px 0px 0px;
+    font-weight: 400;
+   
 }
 
 h6 {
     font-size: 18px;
     margin: 0px;
+    font-weight: 400;
 }
 
 .heading {

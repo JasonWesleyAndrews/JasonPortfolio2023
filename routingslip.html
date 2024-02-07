@@ -18,9 +18,10 @@
      <link rel="icon" href="images/ja-logo.png" type="image/x-icon" />
      <link rel="shortcut icon" href="images/ja-logo.png" type="image/x-icon" /> 
      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
      <link href="index.css" rel="stylesheet" type="text/css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+
     </head>  
    <body>
        <!-- header -->
@@ -72,6 +73,8 @@
     <article>
       <!-- Blog content goes here -->
      <div class="heading">
+     
+     
       <div class="caseStudyLogos">
        <img src="images/RSImages/RS Title.png" class="caseStudySmallImgNoBorder">
       </div>
@@ -102,96 +105,90 @@
      <p>This feature was requested by our customers and prioritized by the business. I started this project by having a kick off meeting with my team, which included the product line manager, product owner, lead developer, and myself as the UX designer. We did a know / don’t know exercise to determine what we needed to learn from customers. We also looked at some examples of competitors who have a similar offering, and reviewed customer feedback where they specifically requested this feature.</p>
      <div class="caseStudyDoubleImgContainer">
       <div class="caseStudyDoubleImg"> 
-        <img src="images/RSImages/competitor_slips.png" class="caseStudySmallImg">
+        <img src="images/RSImages/competitor_slips.png" class="caseStudySmallImg" title="Routing slips from our competitors">
       </div>
       <div class="caseStudyDoubleImg"> 
-        <img src="images/RSImages/RS_know_dont_know.png" class="caseStudySmallImg">
+        <img src="images/RSImages/RS_know_dont_know.png" class="caseStudySmallImg" title="Know/Don't Know exercise in Miro">
       </div>
    </div>
   
-    <p>I moved the project forward by interviewing front office workers to gain qualitative data on how this document would be used in the office, and we sent out a survey to gain quantitative data, specifically to learn what data our users would find most useful on this document. Below is a list of the questions that we wanted answers to:</p>
+    <p>I moved the project forward by interviewing front office workers to gain qualitative data on how this document would be used in the office, and we sent out a survey to gain quantitative data, specifically to learn what data our users would find most useful on this document. <b>Below is a list of the questions that we wanted answers to:</b></p>
     <ul>
      <li>How valuable is this to our customers?</li>
-     <li>Which staff members would use this feature? How?</li>
-     <li>What information would be on the document? Why?</li>
-     <li>Does the routing slip need to be customizable? How?</li>
-     <li>What would our customers expect this to be called?</li>
-     <li>Where do our customers expect to find and print this document? Why?</li>
-     <li>What are our customers currently doing to meet their needs without this feature?</li>
+     <li>Which staff members would use this feature and how?</li>
+     <li>What information should be on the document and why?</li>
+     <li>Does the routing slip need to be customizable? If so, how?</li>
+     <li>What would our users expect this to be called?</li>
+     <li>Where do our users expect to find and print this document? Why?</li>
+     <li>What are our users currently doing to meet their needs without this feature?</li>
     </ul>
 
       <h3 id="defineBB">Define</h3>
-    <p>After interviewing 3 users and surveying 6 on the week of 5/23/22. I synthesized the findings by creating affinity diagrams for the interview and survey insights, then looked over the points and discussed the themes with the product owner. I created separate affinity diagrams because there was some overlap between who was interviewed and surveyed, and I didn’t want this to skew the results.</p>
+    <p>After <b>interviewing 3 users and surveying 6</b> on the week of 5/23/22. I synthesized the findings by creating affinity diagrams for the interview and survey insights, then looked over the points and discussed the themes with the product owner. I created separate affinity diagrams because there was some overlap between who was interviewed and surveyed, and I didn’t want this to skew the results. <b>Below is the affinity diagram that we created:</b></p>
     <div>
-      <img src="images/RSImages/RS_affinity_diagram1.png" class="caseStudyLargeImg">
+      <img src="images/RSImages/RS_affinity_diagram1.png" class="caseStudyLargeImg" title="Affinity Diagram">
    </div>
-   <p>Below is an overview of my findings:</p>
+   <p><b>Here is an overview of our findings:</b></p>
    <ul>
-    <li>5 out of 6 surveyed find this feature useful.</li>
-    <li>Users who were interviewed rated this feature an average of 3.66 out of 5 in terms of value.</li>
+    <li><b>100%</b> expressed an interest in being able to customize the form.</li>
+    <li><b>100%</b> want the ability to batch print the forms before the start of the day.</li>
+    <li><b>100%</b> want the ability to print forms individually for one appointment at a time.</li>
+    <li><b>66%</b> called this feature a “routing slip.”</li>
+    <li><b>83%</b> find this feature useful.</li>
+    <li>Users who were interviewed rated this feature an average of <b>3.66 out of 5</b> in terms of value.</li>
     <li>Most of our customers are finding ways to create this document from scratch, by printing their own custom routing slips.</li>
-    <li>66% of our customers who were interviewed called this feature a “routing slip.”</li>
-    <li>Users did not express much need to have a record of which staff member printed the form.</li>
-    <li>Users expressed an interest in being able to customize the form.</li>
-    <li>100% of users want the ability to batch print the forms before the start of the day.</li>
-    <li>100% of users want the ability to print forms individually for one appointment at a time.</li>
-   </ul>
-      <p>I made a persona of the customer to help myself and the team empathize with the people that we were designing this feature for:</p>
+  </ul>
+      <p>I made a <b>user persona</b> to help the team empathize with the people that we were designing this feature for:</p>
         
-    
         <div class="caseStudyMedImgContainer">
-          <img src="images/RSImages/Persona_RS.png" class="caseStudyMedImg">
+          <img src="images/RSImages/Persona_RS.png" class="caseStudyMedImg" title="User Persona">
        </div>
       
-
-  
-     
-      
         <h3 id="ideationBB">Ideation</h3>
-      <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the MoSCoW prioritization method during a team brainstorming session to narrow down what to include on the actual routing slip. Below is the design for the routing slip .pdf:</p>
+      <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the MoSCoW prioritization method during a team brainstorming session to narrow down what to include on the actual routing slip. <b>Below is the design for the routing slip:</b></p>
      
      
       
       <div class="caseStudyMedImgContainer">
-          <img src="images/RSImages/Routing_slip1.jpg" class="caseStudyMedImg">
+          <img src="images/RSImages/Routing_slip1.jpg" class="caseStudyMedImg" title="Routing Slip printout">
         </div>
-        <p>Based on my customer interviews, I gained an understanding of how this feature would be used. I created user flows on how to access the settings to turn it on and customize which content would print, as well as the 3 ways that the user can actually print a routing slip.</p>
+        <p>Based on my customer interviews, I gained an understanding of how this feature would be used. I created <b>user flows</b> on how to access the settings to turn it on and customize which content would print, as well as the 3 ways that the user can actually print a routing slip.</p>
      
            <div>
-            <img src="images/RSImages/Routing Slip User Flow.png" class="caseStudySmallImgNoBorder">
+            <img src="images/RSImages/Routing Slip User Flow.png" class="caseStudySmallImgNoBorder" title="User Flows">
           </div>
         <h3 id="prototypingBB">Prototyping</h3>
        
       
         
-        <p>I built a clickable prototype in Figma that demonstrated all of the user flows required to turn on and customize routing slips, and well as the 3 ways that the user can actually print the routing slip. Below are screen shots of the settings screen where the user can turn on content sections, and select which procedures to include on the routing slip:</p>
+        <p><b>I built a clickable prototype in Figma</b> that demonstrated all of the user flows required to turn on and customize routing slips, and well as the 3 ways that the user can actually print the routing slip. Below are screen shots of the settings screen where the user can turn on content sections, and select which procedures to include on the routing slip:</p>
         
         <div class="caseStudyDoubleImgContainer">
           <div class="caseStudyDoubleImg"> 
-            <img src="images/RSImages/C_UI_pick_procedures.png" class="caseStudySmallImg">
+            <img src="images/RSImages/C_UI_pick_procedures.png" class="caseStudySmallImg" title="Common Procedures dropdown">
           </div>
           <div class="caseStudyDoubleImg"> 
-            <img src="images/RSImages/C_UI_change_procedures.png" class="caseStudySmallImg">
+            <img src="images/RSImages/C_UI_change_procedures.png" class="caseStudySmallImg" title="Common Procedures table">
           </div>
        </div>
        <p>Below are screen shots of the UI where users can print routing slips for individual appointments:</p>
         
         <div class="caseStudyDoubleImgContainer">
           <div class="caseStudyDoubleImg"> 
-            <img src="images/RSImages/Appointment_pop_over.png" class="caseStudySmallImg">
+            <img src="images/RSImages/Appointment_pop_over.png" class="caseStudySmallImg" title="Print Routing Slip from Appointment Popover ">
           </div>
           <div class="caseStudyDoubleImg"> 
-            <img src="images/RSImages/Appointment_card_dialogue.png" class="caseStudySmallImg">
+            <img src="images/RSImages/Appointment_card_dialogue.png" class="caseStudySmallImg" title="Print Routing Slip from Appointment Dialogue">
           </div>
        </div>
       
             <h3 id="testingBB">Testing</h3>
            
-                <p>I conducted usability testing with 3 users on 6/23 and 6/27. I wanted to answer these questions with my usability tests:</p>
+                <p>I conducted <b>usability testing with 3 participants</b> on 6/23 and 6/27. <b>I wanted to answer these questions with my usability tests:</b></p>
                 <ul>
                   <li>Can users find the settings page to turn on the routing slip feature?</li>
                   <li>Can users customize their routing slip?</li>
-                  <li>What are the users thoughts about the settings?</li>
+                  <li>Do the setting meet our customer's needs?</li>
                   <li>Do users prefer a card layout on the settings page?</li>
                   <li>What do users think of alphabetized menus?</li>
                   <li>Can users batch print all of the routing slips for a day?</li>
@@ -199,24 +196,24 @@
                   <li>What do users think of the layout of the routing slip?</li>
                   <li>What do users think of the content on the routing slip?</li>
                </ul>
-               <p>The UX team has been working toward a card-based design for new pages so that the cards can stack when viewed on smaller screens. I did an A/B test to see what users thought of using cards for the settings page compared to the product's current settings design. Below are screenshots of the two different designs:</p>
+               <p>The UX team has been working toward implementing a card-based design for new pages so that the cards can stack when viewed on smaller screens, creating better heirarchy, and less scrolling. I conducted an <b>A/B test</b> to learn what users thought of using cards for the settings page compared to the product's current settings design. <b>Below are screenshots of the two different designs:</b></p>
                 <div class="caseStudyDoubleImgContainer">
                   <div class="caseStudyDoubleImg"> 
-                    <img src="images/RSImages/Old_settings.png" class="caseStudySmallImg">
+                    <img src="images/RSImages/Old_settings.png" class="caseStudySmallImg" title="Routing Slip settings (current pattern)">
                   </div>
                   <div class="caseStudyDoubleImg"> 
-                    <img src="images/RSImages/New_Settings.png" class="caseStudySmallImg">
+                    <img src="images/RSImages/New_Settings.png" class="caseStudySmallImg" title="Routing Slip settings (cards)">
                   </div>
                </div>
              
-                <p>These are the key takeaways from the tests:</p>
+                <p><b>Here are the key takeaways from the tests:</b></p>
                 <ul>
-                    <li>Users were able to easily find and change the routing slip settings.</li>
-                    <li>Users were easily able to print routing slips for the entire day, or an individual appointment.</li>
-                    <li>Initially we were calling the additional content sections “Content Blocks” this confused users because they thought that turning that toggle on in the settings would block the content. So we changed it to “Display Additional Information” and this tested well.</li>
-                    <li>One user pointed out that there was no way to tell from the settings window which content is included in each section from the settings, we could solve this by adding a tooltip that appears on hover of each toggle that lists the info that will be displayed if that section is enabled. (Which we did.)</li>
-                    <li>In the design of this feature, I arranged the menus that links were added to in alphabetical order. This tested well with users and aligns with UX best practices. When adding “Routing Slips” to the Practice Settings menu, and “Print Routing Slips” to the Actions panel of the schedule’s day view, I recommend that we order those lists alphabetically. (Which we did.)</li>
-                 <li>66% of the users thought the card-based settings page was more convenient and simpler because it saves the user two clicks and has a smaller footprint, eliminating the need to scroll. 33% of users thought it was confusing because it operated differently than all of the other settings pages. Based on this test alone, I would have recommended implementing the new settings style, but we decided to hold off because we had not considered all of the other settings pages in the system. It would be ideal to do some research and update them all at the same time.</li>
+                    <li><b>100%</b> were able to easily find and change the routing slip settings.</li>
+                    <li><b>100%</b> were easily able to print routing slips for the entire day and an individual appointment.</li>
+                    <li><b>100%</b> prefer the menus to be listed in alphabetical order.</li>
+                    <li><b>66%</b> thought the card-based settings page was more convenient and simpler because it saves the user two clicks and has a smaller footprint, eliminating the need to scroll.</li>
+                    <li><b>33%</b> thought it was confusing because it operated differently than all of the other settings pages. Based on this test alone, I would have recommended implementing the new settings style, but we decided to hold off because we had not considered all of the other settings pages in the system. It would be ideal to do some research and update them all at the same time.</li>
+                    <li>Initially we were calling the additional content sections “Content Blocks” this confused users because they thought that turning that toggle on in the settings would block the content. So we changed it to “Display Additional Information” and this tested well.</li> 
                   </ul>
               
                     <h3>Conclusion</h3>
