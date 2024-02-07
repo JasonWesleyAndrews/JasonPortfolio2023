@@ -110,6 +110,9 @@ header {
     height: 60px   
 }
 
+hr {
+    border-top: .5px solid grey;
+}
 ol {
     font-size: 14px;
     line-height: 2;  
