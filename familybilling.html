@@ -18,7 +18,7 @@
      <link rel="icon" href="images/ja-logo.png" type="image/x-icon" />
      <link rel="shortcut icon" href="images/ja-logo.png" type="image/x-icon" /> 
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
      <link href="index.css" rel="stylesheet" type="text/css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -103,121 +103,121 @@
       <a href="#testingBB"><img src="images/designIcons/test_icon.png" class="designIcon"></a>
      </div>
      <h3 id="empathizeBB">Empathize / Research</h3>
-     <p>The business prioritized ‘family billing’ because of customer requests on UserVoice. This project was originally assigned to another designer at the company who conducted the initial research. This involved 6 customer interviews to uncover the general pain points and competitive analysis of 4 dental practice management software solutions for this same issue.</p>
+     <p>The business prioritized ‘family billing’ because of customer requests on UserVoice, our customer feedback portal. This project was originally assigned to another designer at the company who conducted the initial research. This involved <b>6 customer interviews</b> to uncover the general pain points and <b>competitive analysis of 4</b> dental practice management software solutions for this same issue.</p>
 
      <div class="caseStudyDoubleImgContainer">
       <div class="caseStudyDoubleImg"> 
-        <img src="images/familyBillingImages/comp_analysis_famBilling.png" class="caseStudySmallImg">
+        <img src="images/familyBillingImages/comp_analysis_famBilling.png" class="caseStudySmallImg" title="Competitive Analysis">
       </div>
       <div class="caseStudyDoubleImg"> 
-        <img src="images/familyBillingImages/stickyOnInvoice.png" class="caseStudySmallImg">
+        <img src="images/familyBillingImages/stickyOnInvoice.png" class="caseStudySmallImg" title="A user creating their own family totals">
       </div>
    </div>
    <blockquote class="blockquote">
-    <em>“
-      It's time-consuming and expensive to print out all these bills and add up the totals, but more importantly, it makes our practice look unprofessional and a little foolish. Patients have commented about our waste of paper.”</em> - Sarah B. (user)
-   </blockquote>
-   <p>This is a screenshot of the original ledger design. It only allowed for invoices to be printed one at a time:</p>
+    <img src="images/designIcons/quote_icon_start.png" class="quoteIconStart">
+    <p><i>“It's time-consuming and expensive to print out all these bills and add up the totals, but more importantly, it makes our practice look unprofessional and a little foolish. Patients have commented about our waste of paper.”</i> - Sarah B. (user)</p>
+
+  </blockquote>
+   <p>This is a screenshot of the <b>original ledger</b> design. It only allowed for invoices to be printed one at a time:</p>
    <div>
-     <img src="images/familyBillingImages/Old Individual Ledger (No Combined Ledger).png" class="caseStudyLargeImg">
+     <img src="images/familyBillingImages/Old Individual Ledger (No Combined Ledger).png" class="caseStudyLargeImg" title="Original Ledger">
   </div>
   <p>Our users were spending a lot of unnecessary time when billing a family because they had to print out individual bills for each patient and then add that total up. There was also a theme of friction when managing patient connections.</p>
     
     <h3 id="defineBB">Define</h3>
-   <p>The customer interviews and competitive research informed our product line manager enough to create some brief requirements for this epic. The output was this user story map that served as a roadmap for developing these features.</p>
+   <p>The customer interviews and competitive research informed our product line manager enough to create some brief requirements for this epic. The output was this <b>user story map</b> that served as a roadmap for developing these features.</p>
     
    <div class="caseStudyMedImgContainer">
-    <img src="images/familyBillingImages/Userstorymapping_FamBill.png" class="caseStudyMedImg">
+    <img src="images/familyBillingImages/Userstorymapping_FamBill.png" class="caseStudyMedImg" title="User Story Map">
  </div>
 
-    <p>Once the original designer got to the ideation phase, she could not get buy-in for her solution because it involved too much change; I was asked by the UX manager to come in and pair with her to help make progress, this involved us taking a step back. After I was up-to-speed, the original designer was let go and this project was reassigned to me.</p>
+    <p>Once the original designer got to the ideation phase but she could not get buy-in for her solution because it involved too much change. <b>I was asked by the UX manager to come in and pair with her to help make progress</b>, this involved us taking a step back. After I was up-to-speed, and got everyone on the samer page, the original designer was let go and this project was reassigned to me.</p>
     
         <h3 id="ideationBB">Ideation</h3>
       <p>The problem was clear, but the solution was not. Many other dental practice management systems are account based, this means that there is an account that you add patients to, and the designated guarantor of that group pays for everyone in that group. Our system is not like this, it's patient based. This means that each patient must define who their guarantor is and no real “group” has been established, just a spider web of connections.</p>
-    <p>Since these relationships were already created by our users for their patients, and it can be quite complex, I thought the best move was to redesign the ledger to have tabs that will show a patient’s individual ledger, a combined ledger for the patients that this person is the guarantor for, and/or a combined ledger for the patient’s that are guaranteed by this person. That’s right, a patient who is not self-responsible can be the guarantor of other patients. I sketched this up to share with my team so that we could talk it through.</p>
+    <p>Since these relationships were already created by our users for their patients, and it can be quite complex. After multiple <b>ideation sessions with one of our software architects, product owner, and SME,</b> we thought the best move was to redesign the ledger to have tabs that will show a patient’s individual ledger, a combined ledger for the patients that this person is the guarantor for, and/or a combined ledger for the patient’s that are guaranteed by this patient. That’s right, a patient who is not self-responsible can be the guarantor of other patients. I sketched this up to share with my team so that we could talk it through.</p>
    
     <div class="caseStudyMedImgContainer">
-      <img src="images/familyBillingImages/sketch.jpg" class="caseStudyMedImg">
+      <img src="images/familyBillingImages/sketch.jpg" class="caseStudyMedImg" title="Sketch">
    </div>
    
-      <p>We all agreed that we should move forward in this direction. Using Figma, I created mockups of every variation that could exist in the system by creating a complex family example.</P>
+      <p>We all agreed that we should move forward in this direction. Using Figma, <b>I created mockups of every variation</b> that could exist in the system by creating a complex family example.</P>
         <div>
-          <img src="images/familyBillingImages/Relationships_screenshots_famBilling.png" class="caseStudySmallImgNoBorder">
+          <img src="images/familyBillingImages/Relationships_screenshots_famBilling.png" class="caseStudySmallImgNoBorder" title="All Mockup Variations">
         </div>
         
-        <p>A patient in the system could have a guarantor, but also be a guarantor. This is a person who is not financially self-responsible, but they are responsible for another person. This is an edge case, but we wanted to keep this existing functionality for our users, this led us to a potential 3 tab system:</p>
+        <p>A patient in the system could have a guarantor, but also be a guarantor. This is a person who is not financially self-responsible, but they are responsible for another person. This is an edge case, but we wanted to keep this existing functionality for our users, <b>this led us to a potential 3 tab system:</b></p>
                 <ul>
                   <li>(Patient Name) Shows the patient’s individual ledger.</li>
                   <li>(Guarantor For) Shows this patient’s combined guarantor ledger.</li>
                   <li>(Guaranteed By) Shows the combined ledger for this patient’s guarantor.</li>
                </ul>
               
-
              <div class="caseStudyMedImgContainer">
-              <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyMedImg">
+              <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyMedImg" title="3 Tab Ledger">
            </div>
         <p>This solution involves allowing the user to view either a patient’s individual ledger, or a guarantor’s ledger, which will include all of the patients that they are financially responsible for. Statements and account history can then be printed as an individual or guarantor.
-          We wanted to give the user the option to print guarantor statements in 2 ways, either as a combined statement, or as individual statements. This would give the most complicated patient’s 5 print options.
+          We wanted to give the user the option to print guarantor statements in 2 ways, either as a combined statement, or as individual statements. This would give the most complicated patient’s 5 print options. <b>Below are the user flows:</b>
           </p>
           <div>
-            <img src="images/familyBillingImages/userFlow_famBilling.png" class="caseStudySmallImgNoBorder">
+            <img src="images/familyBillingImages/userFlow_famBilling.png" class="caseStudySmallImgNoBorder" title="User Flows">
           </div>
            
         <h3 id="prototypingBB">Prototyping</h3>
-        <p>I built an interactive prototype using Figma that allowed users to view guarantors and individual ledgers.</p>
+        <p>I built an <b>interactive prototype using Figma</b> that allowed users to view guarantor and individual ledgers and print their statements.</p>
         <div>
-          <img src="images/familyBillingImages/New Individual Ledger.png" class="caseStudyLargeImg">
+          <img src="images/familyBillingImages/New Individual Ledger.png" class="caseStudyLargeImg" title="Updated Patient Ledger">
        </div>
        <p>In the process I also gave the ledger a bit of a facelift by wrapping the sections in cards.
       </p>
        <div>
-        <img src="images/familyBillingImages/New Combined Ledger.png" class="caseStudyLargeImg">
+        <img src="images/familyBillingImages/New Combined Ledger.png" class="caseStudyLargeImg" title="New Guarantor Ledger">
        </div>
-       <p>The guarantor ledger design showed combined balance totals as well as individual totals. The design then allowed the user to select printing options for each. For example, when printing a combined ledger, the user can select to print a group statement, or individual statements for all of the associated patients.</p>
+       <p>The new guarantor ledger design shows <b>combined balance totals</b> as well as individual totals. The design then allows the user to <b>select printing options</b> for each. For example, when printing a combined ledger, the user can select to print a group statement, or individual statements for all of the associated patients.</p>
        <div>
-        <img src="images/familyBillingImages/Print_options_FamBilling.png" class="caseStudyLargeImg">
+        <img src="images/familyBillingImages/Print_options_FamBilling.png" class="caseStudyLargeImg" title="Statement Printing Options">
       </div>
 
-       <p>This is what the guarantor statement looks like:</p>
+       <p><b>This is what the guarantor statement looks like:</b></p>
        <div class="caseStudyThreeImgContainer">
         <div class="caseStudyDoubleImg"> 
-          <img src="images/familyBillingImages/connected stament1.png" class="caseStudySmallImg">
+          <img src="images/familyBillingImages/connected stament1.png" class="caseStudySmallImg" title="Guarantor Statement">
         </div>
         <div class="caseStudyDoubleImg"> 
-          <img src="images/familyBillingImages/connected  stament2.png" class="caseStudySmallImg">
+          <img src="images/familyBillingImages/connected  stament2.png" class="caseStudySmallImg" title="Guarantor Statement">
         </div>
      </div>
       
       
             <h3 id="testingBB">Testing</h3>
-            <p>I was able to demo the prototype with 4 users in virtual feedback sessions.</p>
+            <p>I led <b>usability testing</b> sessions with <b>4</b> users.</p>
             <div class="caseStudyMedImgContainer">
-              <img src="images/familyBillingImages/FamBillingSmall.gif" class="caseStudyMedImg">
+              <img src="images/familyBillingImages/FamBillingSmall.gif" class="caseStudyMedImg" title="Prototype">
            </div>
                 
-                <h6>What I Wanted to Learn:</h6>
+                <p><b>What we wanted to learn:</b></p>
                 <ul>
                   <li>Do users understand the concept of viewing a ledger as patient and as guarantor?</li>
-                  <li>Do users understand how to switch patient and guarantor ledger views?</li>
+                  <li>Can users complete this new flow? How long will it take them?</li>
                   <li>Do group ledgers have the information and layout expected?</li>
                   <li>Do users expect to see individual ledger views on the group ledger? Not just patient overviews. Where?</li>
                   <li>What do users think of the redesign of the ledger?</li>
                </ul>
-               <h6>Key Takeaways From User Feedback:</h6>
+               <p><b>Key Takeaways From User Feedback:</b></p>
                <ul>
-                <li>100% of users understand the idea of patient vs. guarantor ledger view.</li>
-                <li>100% of users prefer the updated ledger design.</li>
-                <li>100% of users expect to be able to click on a patient's overview in a guarantor's ledger and see their individual ledger.</li>
-                <li>66% of users complain of inaccurate totals in ledger.</li>
+                <li><b>100%</b> understand the idea of patient vs. guarantor ledger view.</li>
+                <li><b>100%</b> are able to complete the task of printing a guarantor statement with the average time of <b>27</b> seconds.</li>
+                <li><b>100%</b> prefer the updated ledger design.</li>
+                <li><b>100%</b> expect to be able to click on a patient's overview in a guarantor's ledger and see their individual ledger.</li>
              </ul>
-             <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
+             <p>Here is a screenshot of the <b>affinity diagram</b> where I synthesized the testing feedback:</p>
               
 
                <div class="caseStudyMedImgContainer">
-                <img src="images/familyBillingImages/Affinity_Diagram_FamBilling.png" class="caseStudyMedImg">
+                <img src="images/familyBillingImages/Affinity_Diagram_FamBilling.png" class="caseStudyMedImg" title="Affinity Diagram">
              </div>
              
-                <h6>Additional Requests From Users:</h6>
+             <p><b>Additional Requests From Users:</b></p>
                 <ul>
                     <li>Users want to be able to schedule a family together.</li>
                     <li>Users want to be able to assign multiple guarantors.</li>
@@ -225,15 +225,14 @@
                   <p>These requests are validated by previous customer feedback, as a result they have been added to the roadmap.</p>
               
                     <h3>Conclusion</h3>
-                    <p>I presented the prototype and research findings to the PLMs along with my team and we decided to move forward with this guarantor billing solution to solve the family billing problem. Because the guarantor connections already exist in our user’s systems, we can deliver value quickly this way. Another team investigated the ledger inaccuracies and introduced several changes that remedied the issue. And the designs shown here have been coded and will be in the software update coming out next week.</p>
+                    <p>I presented the prototype and research findings to the PLMs along with my team and we decided to move forward with this guarantor billing solution to solve the family billing problem. Because the guarantor connections already exist in our user’s systems, we can deliver value quickly this way. Another team investigated the ledger inaccuracies and introduced several changes that remedied the issue. I worked with my development team to deliver this code, and it has been in use by our customers for a few months. We have recieved rave reviews on how flexible and time-saving this solution is.</p>
                     
-                    <p>On average this new family billing process saves our user 32 clicks, 9 keystrokes, and 1 minute and 52 seconds per family. Collectively, this new feature will save our customers millions in labor costs over the coming years.</p>
+                    <p>On average this new family billing process saves our user <b>32</b> clicks, <b>9</b> keystrokes, and <b>1</b> minute and <b>52</b> seconds per family. Collectively, this new feature will save our customers millions in labor costs over the coming years.</p>
                     <div class="imgLimit">
                       <img src="images/familyBillingImages/Family Billing Mock.png" class="caseStudySmallImgNoBorder">
                    </div>
                    
    </div>
- <!-- Add more content as needed -->
 </article>
 </div>
 </main>
