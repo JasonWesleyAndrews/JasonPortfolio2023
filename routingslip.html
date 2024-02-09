@@ -111,19 +111,19 @@
       </div>
    </div>
   
-    <p>I moved the project forward by interviewing front office workers to gain qualitative data on how this document would be used in the office, and we sent out a survey to gain quantitative data, specifically to learn what data our users would find most useful on this document. <b>Below is a list of the questions that we wanted answers to:</b></p>
+    <p>I moved the project forward by interviewing front office workers to gain qualitative data on how this document would be used in the office, and we sent out a survey to gain quantitative data, specifically to learn what data our users would find most useful on this document. <b>Here is what we wanted to learn:</b></p>
     <ul>
      <li>How valuable is this to our customers?</li>
      <li>Which staff members would use this feature and how?</li>
      <li>What information should be on the document and why?</li>
      <li>Does the routing slip need to be customizable? If so, how?</li>
      <li>What would our users expect this to be called?</li>
-     <li>Where do our users expect to find and print this document? Why?</li>
+     <li>Where do our users expect to find and print this document and why?</li>
      <li>What are our users currently doing to meet their needs without this feature?</li>
     </ul>
 
       <h3 id="defineBB">Define</h3>
-    <p>After <b>interviewing 3 users and surveying 6</b> on the week of 5/23/22. I synthesized the findings by creating affinity diagrams for the interview and survey insights, then looked over the points and discussed the themes with the product owner. I created separate affinity diagrams because there was some overlap between who was interviewed and surveyed, and I didn’t want this to skew the results. <b>Below is the affinity diagram that we created:</b></p>
+    <p>After <b>interviewing 3 users and surveying 6</b> on the week of 5/23/22. I synthesized the findings by creating affinity diagrams for the interview and survey insights, then looked over the points and discussed the themes with the product owner. I created separate affinity diagrams because there was some overlap between who was interviewed and surveyed, and I didn’t want this to skew the results. <b>Here is the affinity diagram that we created:</b></p>
     <div>
       <img src="images/RSImages/RS_affinity_diagram1.png" class="caseStudyLargeImg" title="Affinity Diagram">
    </div>
@@ -132,8 +132,8 @@
     <li><b>100%</b> expressed an interest in being able to customize the form.</li>
     <li><b>100%</b> want the ability to batch print the forms before the start of the day.</li>
     <li><b>100%</b> want the ability to print forms individually for one appointment at a time.</li>
-    <li><b>66%</b> called this feature a “routing slip.”</li>
     <li><b>83%</b> find this feature useful.</li>
+    <li><b>66%</b> called this feature a “routing slip.”</li>
     <li>Users who were interviewed rated this feature an average of <b>3.66 out of 5</b> in terms of value.</li>
     <li>Most of our customers are finding ways to create this document from scratch, by printing their own custom routing slips.</li>
   </ul>
@@ -144,7 +144,7 @@
        </div>
       
         <h3 id="ideationBB">Ideation</h3>
-      <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the MoSCoW prioritization method during a team brainstorming session to narrow down what to include on the actual routing slip. <b>Below is the design for the routing slip:</b></p>
+      <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the MoSCoW prioritization method during a team brainstorming session to narrow down what to include on the actual routing slip. <b>Here is the design for the routing slip:</b></p>
      
      
       
@@ -183,7 +183,7 @@
       
             <h3 id="testingBB">Testing</h3>
            
-                <p>I conducted <b>usability testing with 3 participants</b> on 6/23 and 6/27. <b>I wanted to answer these questions with my usability tests:</b></p>
+                <p>I conducted <b>usability testing with 3 participants</b> on 6/23 and 6/27. <b>We wanted to answer these questions with my usability tests:</b></p>
                 <ul>
                   <li>Can users find the settings page to turn on the routing slip feature?</li>
                   <li>Can users customize their routing slip?</li>
@@ -215,6 +215,11 @@
                     <li>Initially we were calling the additional content sections “Content Blocks” this confused users because they thought that turning that toggle on in the settings would block the content. So we changed it to “Display Additional Information” and this tested well.</li> 
                   </ul>
               
+                  <blockquote class="blockquote">
+                    <img src="images/designIcons/quote_icon_start.png" class="quoteIconStart">
+                    <p><i>“This will save us so much time. I have been printing our blank routing slips and writing in the patient information for each appointment!”</i> - Heather (user)</p>
+                  </blockquote>
+
                     <h3>Conclusion</h3>
                     <p>This feature reached development completion and was deployed into production in December 2022. In the post-release phase of the feature, I conducted interviews with users, monitored feedback in UserVoice, and personally visited two offices utilizing the new functionality. Through these interactions, I identified two technical challenges that required resolution. Firstly, there was a performance issue where attempting to print a substantial number of routing slips in certain scenarios could lead to timeouts and hinder other functionalities, such as appointment bookings. This was successfully addressed by implementing batch requests, promptly resolved by my development team. The second challenge involved a page break bug causing misalignment of printed routing slips. To rectify this, we ensured that if a routing slip spanned multiple pages, its content would occupy two full pages, preventing offset issues.</p>
                       
@@ -228,7 +233,7 @@
 <section>
 <footer>
   <div class="footerInner">
-   <p class="copyright">© 2023</p>
+   <p class="copyright">© 2024</p>
    <div class="footerLinks">
     <a href="https://www.linkedin.com/in/jason-wesley-andrews/" target="_blank"><img src="images/linkedin_logo_light.png" class="footerIcons"></a>
     <a href="mailto:jasonwesleyandrews@gmail.com"><img src="images/mail_logo_light.png" class="footerIcons"></a>
