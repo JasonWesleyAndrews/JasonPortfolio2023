@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  
     background-color: #F8F8F8;
     margin-left: auto;
     margin-right: auto;
@@ -43,11 +42,10 @@ article {
     justify-content: center;
     flex: 1;
     margin-left: 216px;
-    
 }
 
 .logo {
-    width: 40px;
+    width: 38px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -80,13 +78,11 @@ li:hover {
     color: #000000;
 }
 
-
 /* header styles */
 
 #header {
     transition: top .3s ease-in-out;
-    top: 0;
-    
+    top: 0;  
 }
 
 header {
@@ -113,10 +109,12 @@ header {
 hr {
     border-top: .5px solid grey;
 }
+
 ol {
     font-size: 14px;
     line-height: 2;  
 }
+
 ul {
     font-size: 14px;
     line-height: 2;
@@ -124,8 +122,7 @@ ul {
 
 header ul { 
     list-style-type: none;  
-    font-size: 14px;
-    
+    font-size: 14px; 
 }
 
 aside ul {
@@ -133,8 +130,8 @@ aside ul {
     padding: 0;
     margin-top: 0;
     font-size: 14px;
-
 }
+
 nav {display: flex;
      flex-direction: row;
     margin: 0px;
@@ -142,10 +139,12 @@ nav {display: flex;
 .mobileNav { display: none;
              cursor: pointer;
 }
+
 .mobileNav:hover {
     box-shadow: 0px 2px 4px #CECECE;
     color: #000000;
     } 
+
 .subNav {
     display: none;
     list-style-type: none;
@@ -168,9 +167,9 @@ nav {display: flex;
     text-decoration: underline;
     font-weight: 600;
 }
+
 li { 
-    padding: 6px 8px;
-         
+    padding: 4px 8px;       
 }
 
 .sideLinks {
@@ -201,7 +200,6 @@ li {
 
 li.contactButton {
     margin-right: 0px;
-    
 }
 
 nav ul {
@@ -220,7 +218,6 @@ p {
     line-height: 2;
     font-size: 14px;
     margin-top: 0px;
-    
 }
 
 h1 {
@@ -237,9 +234,9 @@ h2 {
     white-space: nowrap;
     margin-top: 16px;
     margin-bottom: 10px;
-    font-weight: 400;
-   
+    font-weight: 400;  
 }
+
 h3 {
     font-size: 24px !important;
     margin-top: 8px;
@@ -259,7 +256,6 @@ h5 {
     font-size: 22px;
     margin: 20px 0px 0px 0px;
     font-weight: 400;
-   
 }
 
 h6 {
@@ -282,6 +278,7 @@ h6 {
 .caseStudy p {
     font-size: 14px;  
 }
+
 /* home page styles */
 
 .mainIcons { height: 22px;}
@@ -373,7 +370,6 @@ h6 {
     width: 320px;
     padding-top: 0px;
     margin-bottom: 16px;
- 
     border-radius: 4px;
    box-shadow: 4px 4px 8px #CECECE;
 
@@ -438,8 +434,8 @@ h6 {
 }
 
 .designIcon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 8px;
     border: solid;
     border-color: #C2C2C2;
@@ -451,7 +447,6 @@ h6 {
     transform: scale(1.05); 
     box-shadow: 0px 4px 8px #CECECE;   
 }
-
 
 .MedImgWrapper{
     display: flex;
@@ -501,8 +496,6 @@ h6 {
     margin-bottom: 10px;
 }
 
-
-
 .blockquote {
     display: flex;
     justify-content: left;
@@ -517,7 +510,6 @@ h6 {
     padding-right: 20px;
 }
 
-
 aside {
     position:fixed;
     top: 0;
@@ -531,13 +523,9 @@ aside {
     z-index: 0;
   }
 
-
 .textLink {
-   
     text-decoration: underline; 
-   
 }
-
 
 /* footer styles*/
 
@@ -605,8 +593,7 @@ footer {
 }
 
 .imgLimit {
-    width: 100%;
-      
+    width: 100%;   
 }
 
 .caseStudyDoubleImgContainer {
@@ -638,7 +625,7 @@ footer {
     border-style: inset;
     border-width: thin;
     margin: 0px 10px;
-    padding: 5px 7px;
+    padding: 3px 7px;
     justify-content: center;
     width: 41px;
 }
