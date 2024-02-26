@@ -4,7 +4,7 @@
      <!-- password -->
   <script type="text/javascript">
       var password;
-      var correctpassword="1";
+      var correctpassword="123";
       password=prompt('Please enter the password to view this case study:','');
       if (password==correctpassword)
    ;
@@ -62,10 +62,10 @@
     <li class="sideLinks"><a href="moveabroad.html">Move Abroad</a></li>
     <li class="current sideLinks"><a href="#">Appointment Alerts</a></li>
     <li class="sideLinks"><a href="routingslip.html">Routing Slip</a></li>
-    <li class="sideLinks"><a href="#">Family Billing</a></li>
+    <li class="sideLinks"><a href="Familybilling.html">Family Billing</a></li>
     <li class="sideLinks"><a href="gap.html">Georgia Animal Project</a></li>
-    <li class="sideLinks"><a href="bonsaioutlet.html">BonsaiOutlet.com</a></li>
     <li class="sideLinks"><a href="energygov.html">Energy.gov</a></li>
+    <li class="sideLinks"><a href="bonsaioutlet.html">BonsaiOutlet.com</a></li>
     
     <!-- Add more blog links as needed -->
   </ul>
@@ -81,7 +81,7 @@
         <img src="images/AppointmentAlertsImages/AppointmentAlertsTitle.png" class="caseStudySmallImgNoBorder">
      </div>
       <h3>UX Design Case Study</h3>
-      <p>Feature design for dental practice management SaaS, I was the UX designer on a cross-functional team.</p>
+      <p>Feature design for dental practice management SaaS. I was the UX designer on a cross-functional team.</p>
   </div>
 
   <div class="imgLimit">
@@ -97,18 +97,18 @@
     <h3>The Goal</h3>
     <p>Allowing the user to view all of the patient’s other appointments, reducing context switching during appointment management flows.</p>
     <h3>The Process</h3>
-     <div class="designIcons">
-      <a href="#empathizeBB"><img src="images/designIcons/empathize_icon.png" class="designIcon"></a>
-      <a href="#defineBB"><img src="images/designIcons/define_icon.png" class="designIcon"></a>
-      <a href="#ideationBB"><img src="images/designIcons/ideate_icon.png" class="designIcon"></a>
-      <a href="#prototypingBB"><img src="images/designIcons/prototype_icon.png" class="designIcon"></a>
-      <a href="#testingBB"><img src="images/designIcons/test_icon.png" class="designIcon"></a>
-      <a href="#testingBB"><img src="images/designIcons/iterate_icon.png" class="designIcon"></a>
-      <a href="#prototypingBB"><img src="images/designIcons/prototype_icon.png" class="designIcon"></a>
-      <a href="#testingBB"><img src="images/designIcons/test_icon.png" class="designIcon"></a>
+     <div class="designIconsWrap">
+      <a href="#empathize"><img src="images/designIcons/empathize_icon.png" class="designIconWrap"></a>
+      <a href="#define"><img src="images/designIcons/define_icon.png" class="designIconWrap"></a>
+      <a href="#ideation"><img src="images/designIcons/ideate_icon.png" class="designIconWrap"></a>
+      <a href="#prototyping"><img src="images/designIcons/prototype_icon.png" class="designIconWrap"></a>
+      <a href="#testing"><img src="images/designIcons/test_icon.png" class="designIconWrap"></a>
+      <a href="#iteration"><img src="images/designIcons/iterate_icon.png" class="designIconWrap"></a>
+      <a href="#prototyping2"><img src="images/designIcons/prototype_icon.png" class="designIconWrap"></a>
+      <a href="#testing2"><img src="images/designIcons/test_icon.png" class="designIconWrap"></a>
      </div>
 
-     <h3 id="empathizeBB">Empathize / Research</h3>
+     <h3 id="empathize">Empathize / Research</h3>
      <p>One of the frequent user requests we received was the desire for an alert system when scheduling appointments for patients who already have existing appointments. The product owner highlighted this need during a meeting where we discussed various user requests. Subsequently, I was tasked with conducting research to devise a solution. I created a <b>research plan</b> and <b>interview script</b>, and then proceeded to <b>lead interviews</b> with <b>9</b> users who had specifically requested this feature.</p>
      <div class="caseStudyMedImgContainer">
       <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudyMedImg" title="User Interviews">
@@ -128,7 +128,7 @@
         <li>How would they use this feature?</li>
      </ul>
  
-    <h3 id="defineBB">Define</h3>
+    <h3 id="define">Define</h3>
    <p>Participants strongly supported the need for an alert when scheduling a patient with an existing appointment to prevent accidental double bookings, calendar blockages, confusion, and skewed production estimates. An appointment notification could facilitate combining appointments for improved practice efficiency. Moreover, a lack of awareness about a patient's future appointments was potentially reflecting poorly on staff.</p>
  
    <blockquote class="blockquote">
@@ -156,7 +156,7 @@
     <img src="images/AppointmentAlertsImages/SarahWilsonPersona.png" class="caseStudyMedImg" title="User Persona">
  </div>
 
-        <h3 id="ideationBB">Ideation</h3>
+        <h3 id="ideation">Ideation</h3>
       <p>After conducting my research, I suggested the implementation of a notification system to our product team. This system would manifest as a modal dialogue, serving as an interstitial page guiding users to the relevant Appointment modal. It's important to note that this proposed modification would introduce an additional step in the <b>user flow.</b></p>
    
       <div>
@@ -169,7 +169,7 @@
         <img src="images/AppointmentAlertsImages/Sketches1.png" class="caseStudySmallImgNoBorder" title="Sketches">
       </div>
      
-        <h3 id="prototypingBB">Prototyping</h3>
+        <h3 id="prototyping">Prototyping</h3>
         <p>Using Figma, I created <b>mockups</b> for all of the screens so that I could have a working prototype to experience the flows. Here is the modal used in the booking flow, showing all of the patient’s appointments, when the user clicks ‘Schedule an Appointment’ and selects a patient from the Schedule page:</p>
        
         <div>
@@ -206,7 +206,7 @@
         </div>
      </div>
       
-            <h3 id="testingBB">Testing</h3>
+            <h3 id="testing">Testing</h3>
             <p>Now that we had a functional <b>prototype</b>, we wanted to conduct <b>usability tests</b> to evaluate the effectiveness of the appointment alerts feature. The purpose was to gather user feedback and insights to inform further improvements. <b>Here is what we wanted to learn:</b></p>
 
             <ul>
@@ -231,7 +231,7 @@
                 <li><b>60%</b> expected to see procedure codes on the cancellation dialogues.</li>
 
              </ul>
-             <h3 id="...">Iteration</h3>
+             <h3 id="iteration">Iteration</h3>
              <p>Initially, the testing of this solution seemed promising! Participants successfully navigated through the flows and appreciated the convenience of viewing a patient's additional appointments while booking. However, many expressed a <b>desire for more functionality</b> within the dialogue. They anticipated features such as the option to <b>delete previously canceled appointments</b> and <b>schedule unscheduled ones</b>. Implementing these additions would necessitate creating <b>five distinct modals</b> for each user action. To better grasp the concepts, I took the initiative to <b>sketch out these ideas:</b></p>
                <div>
                 <img src="images/AppointmentAlertsImages/Sketches2.png" class="caseStudySmallImgNoBorder" title="Sketches">
@@ -247,44 +247,59 @@
                 <img src="images/AppointmentAlertsImages/Complexity.png" class="caseStudyMedImg" title="Complexity">
              </div>
            <p>After careful consideration, I concluded that the optimal solution was to create a dedicated scheduling page for each patient. This page would feature a comprehensive list of all appointments and provide a functional area where users could easily view and edit the specific appointment they were focusing on. While presenting this idea to my product team, I encountered resistance to a complete redesign of the booking system. As a compromise, <b>I suggested adding an "All Appointments" section to the existing Appointment window</b>. This section would showcase all the desired functionalities requested by our users, thereby eliminating the necessity to develop new windows and <b>simplifying the solution’s user flow and development efforts.</b></p>
-             <h3 id="...">Prototyping 2</h3>
-             <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
+            
+           
+           <h3 id="prototyping2">Prototyping 2</h3>
+             <p>Adding an All Appointments section to the Appointment modal was an easy task. The existing window provided a solid foundation, and I simply augmented it by <b>introducing a new section on the right-hand side within the accordion</b>. This new section features cards containing all the essential appointment details from the previous design, now equipped with the actions users had been requesting. To showcase and validate this enhanced functionality, I developed a <b>prototype</b> for demonstration and testing purposes.</p>
                <div class="caseStudyMedImgContainer">
-                <img src="images/AppointmentAlertsImages/S3Appointment.png" class="caseStudyLargeImg">
+                <img src="images/AppointmentAlertsImages/S3Appointment.png" class="caseStudyLargeImg" title="Prototype">
              </div>
-             <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
-
-             <div class="caseStudyThreeImgContainer">
-              <div class="caseStudyDoubleImg"> 
-                <img src="images/AppointmentAlertsImages/S3_All.png" class="caseStudySmallImg" title="Guarantor Statement">
-              </div>
-              <div class="caseStudyDoubleImg"> 
-                <img src="images/AppointmentAlertsImages/S3_tabs.png" class="caseStudySmallImg" title="Guarantor Statement">
-              </div>
-           </div>
+           
        
-           <h3 id="...">Testing 2</h3>
-           <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
+           <h3 id="testing2">Testing 2</h3>
+           <p>
+            I tested the appointment alerts feature with <b>7</b> users to assess its effectiveness. The goal was to collect user feedback and insights, which will be used to validate the design and make informed enhancements before moving forward with the development phase.</p>
            <div class="caseStudyMedImgContainer">
-            <img src="images/AppointmentAlertsImages/Test2.png" class="caseStudyLargeImg">
+            <img src="images/AppointmentAlertsImages/Test2.png" class="caseStudyMedImg">
          </div>
 
-            
-                <h6>Additional Requests From Users:</h6>
-                <ul>
-                    <li>Users want to be able to schedule a family together.</li>
-                    <li>Users want to be able to assign multiple guarantors.</li>
-                  </ul>
-                  <p>These requests are validated by previous customer feedback, as a result they have been added to the roadmap.</p>
-              
-               
+         <p><b>Here is what we wanted to learn:</b></p>
+         <ul>
+          <li>Do users find the All Appointments section helpful when editing, scheduling, rescheduling, canceling, and deleting an appointment?</li>
+          <li>Do users expect this to work the way that it does?</li>
+          <li>What content do users expect to see in the appointment cards?</li>
+          <li>Do users prefer to see tabs for scheduled and pending appointments?</li>
+          <li>Do users want the All Appointments window open by default?</li>
+        </ul>
 
+        <p>The accordion section contains all of a patient’s appointments, but it can be split into scheduled and pending, allowing the user to sort this way could be valuable. I conducted <b>A/B testing</b> to determine which way users prefer this to be displayed:</p>
+       
+             <div class="caseStudyThreeImgContainer">
+              <div class="caseStudyDoubleImg"> 
+                <img src="images/AppointmentAlertsImages/S3_All.png" class="caseStudySmallImg" title="All Appointments Combined">
+              </div>
+              <div class="caseStudyDoubleImg"> 
+                <img src="images/AppointmentAlertsImages/S3_tabs.png" class="caseStudySmallImg" title="All Appointments With Tabs">
+              </div>
+           </div>
+            
+                <p><b>Testing Results:</b></p>
+                <ul>
+                  <li><b>100%</b> were able to successfully complete the flow of scheduling, rescheduling, editing, canceling, and deleting appointments.</li>
+                  <li><b>100%</b> want to have an All Appointments section in the Appointment modal.</li>
+                  <li><b>100%</b> were satisfied with the content on the Appointment Cards.</li>
+                  <li><b>71%</b> prefer tabs instead of a master list.</li>
+                  <li><b>58%</b> prefer the All Appointments window to be open by default.</li>
+                </ul>
+                  
                     <h3>Conclusion</h3>
-                    <p>I presented the prototype and research findings to the PLMs along with my team and we decided to move forward with this guarantor billing solution to solve the family billing problem. Because the guarantor connections already exist in our user’s systems, we can deliver value quickly this way. Another team investigated the ledger inaccuracies and introduced several changes that remedied the issue. And the designs shown here have been coded and will be in the software update coming out next week.</p>
+                    <p>The addition of the "All Appointments" section to the Appointment modal has been a resounding success! Users unanimously express a desire for this feature, and it promises to be a quick win for the business. This solution is significantly more efficient than the initial concept, where users had to navigate through an interstitial page to access other appointments.</p>
+                    <P>To optimize user experience, we are implementing straightforward settings for the All Appointments section within the Appointment modal. Users will have the option to easily toggle this section on or off, as well as choose whether it should be initially opened or collapsed. Additionally, users can customize which appointment types are available for toggling through the tabs.</P>
+                    <p>This feature is currently in production and is anticipated to deliver benefits for both users and the business.</p>
                     
-                    <p>On average this new family billing process saves our user 32 clicks, 9 keystrokes, and 1 minute and 52 seconds per family. Collectively, this new feature will save our customers millions in labor costs over the coming years.</p>
-                    
-                   
+                    <div class="imgLimit">
+                      <img src="images/AppointmentAlertsImages/AppointmentAlertsMock.png" class="caseStudySmallImgNoBorder">
+                   </div>         
    </div>
  <!-- Add more content as needed -->
 </article>

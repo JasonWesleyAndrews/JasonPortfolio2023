@@ -433,9 +433,25 @@ h6 {
     margin-top: 20px;
 }
 
+.designIconsWrap {
+    display: flex;
+    justify-content: space-between;
+    transition: all .2s ease-out;
+    margin-top: 20px;
+}
+
+.designIconWrap {
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #C2C2C2;
+    border-width: 1px;
+    transition: all .2s ease-out;  
+}
 .designIcon {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     border-radius: 8px;
     border: solid;
     border-color: #C2C2C2;
@@ -581,6 +597,23 @@ footer {
     height: 50px;
     border-radius: 8px;
 }
+
+.designIconWrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.designIconsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    transition: all .2s ease-out;
+    margin-top: 20px;
+}
+
 }
 @media (max-width: 600px) {
 
