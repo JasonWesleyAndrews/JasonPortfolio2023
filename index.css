@@ -564,12 +564,14 @@ footer {
     height: 22px;
     padding: 16px;
     padding-right: 0px;
+    padding-top: 20px;
 }
 
 .footerLinks {
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: center;  
+    align-items: flex-start;  
 }
 
 .caseStudy:hover {

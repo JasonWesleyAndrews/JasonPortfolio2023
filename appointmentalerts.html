@@ -109,15 +109,15 @@
      </div>
 
      <h3 id="empathizeBB">Empathize / Research</h3>
-     <p>One of the most popular requests from our users was to receive an alert when scheduling an appointment if that patient already had an existing appointment. This was brought to my attention by one of our product owners. She asked me to do the research needed to design a solution to this problem. After writing a research plan and interview script, I conducted interviews with 9 of these users.</p>
+     <p>One of the frequent user requests we received was the desire for an alert system when scheduling appointments for patients who already have existing appointments. The product owner highlighted this need during a meeting where we discussed various user requests. Subsequently, I was tasked with conducting research to devise a solution. I created a <b>research plan</b> and <b>interview script</b>, and then proceeded to <b>lead interviews</b> with <b>9</b> users who had specifically requested this feature.</p>
      <div class="caseStudyMedImgContainer">
-      <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudyMedImg">
+      <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudyMedImg" title="User Interviews">
    </div>
     
     
-     <p>Here is what we wanted to learn:</p>
+     <p><b>Here is what we wanted to learn:</b></p>
      <ul>
-        <li>During the scheduling process do users want to be notified if a patient has other appointments?</li>
+        <li>During the scheduling process, do users want to be notified if a patient has other appointments?</li>
           <ul>
             <li>At what point in the process?</li>
             <li>What type of notification?</li>
@@ -129,7 +129,7 @@
      </ul>
  
     <h3 id="defineBB">Define</h3>
-   <p>Participants strongly supported the need for an alert when scheduling a patient with an existing appointment to prevent accidental double bookings, calendar blockages, confusion, and skewed production estimates. Users also highlighted the importance of including options to remove associated appointments when deleting entries, addressing issues caused by unnecessary appointments on the schedule. Moreover, an appointment notification could facilitate suggesting combined appointments for improved practice efficiency. Lack of awareness about a patient's future appointments was noted as potentially reflecting poorly on staff.</p>
+   <p>Participants strongly supported the need for an alert when scheduling a patient with an existing appointment to prevent accidental double bookings, calendar blockages, confusion, and skewed production estimates. An appointment notification could facilitate combining appointments for improved practice efficiency. Moreover, a lack of awareness about a patient's future appointments was potentially reflecting poorly on staff.</p>
  
    <blockquote class="blockquote">
     <img src="images/designIcons/quote_icon_start.png" class="quoteIconStart">
@@ -137,36 +137,36 @@
   </blockquote>
 
  
-   <p>I found that users were abandoning the flow of creating a new appointment because they needed to go back to the patient’s Home page to view other information. I created this user journey map to highlight the frustrations experienced in the booking flow:</p>
+   <p>I found that users were abandoning the flow of creating a new appointment because they needed to go back to the patient’s Home page to view other information. I created this <b>user journey map</b> to highlight the frustrations experienced in the booking flow:</p>
    
   <div>
-    <img src="images/AppointmentAlertsImages/AppointmentAlertsUGM.png" class="caseStudyLargeImg">
+    <img src="images/AppointmentAlertsImages/AppointmentAlertsUGM.png" class="caseStudyLargeImg" title="USer Journey Map">
  </div>
 
  <P><b>Here are my key findings:</b></P>
  <ul>
-  <li>100% want to be able to view existing appointments for a patient when scheduling, rescheduling, or deleting appointments.</li>
-  <li>100% want a link to edit the appointments that were being viewed.</li>
-  <li>88% want to see planned procedure codes associated with appointments.</li>
-  <li>66% want to see appointments on the pending list in addition to scheduled appointments.</li> 
+  <li><b>100%</b> want to be able to view existing appointments for a patient when scheduling, rescheduling, or deleting appointments.</li>
+  <li><b>100%</b> want a link to edit the appointments that were being viewed.</li>
+  <li><b>88%</b> want to see planned procedure codes associated with appointments.</li>
+  <li><b>66%</b> want to see appointments on the pending list in addition to scheduled appointments.</li> 
 </ul>
 
-<p>Based on the data that I collected in my research, I created this user persona to help us empathize with the user:</p>
+<p>Based on the data that I collected in my research, I created this <b>user persona</b> to help us empathize with the user:</p>
   <div class="caseStudyMedImgContainer">
-    <img src="images/AppointmentAlertsImages/SarahWilsonPersona.png" class="caseStudyMedImg">
+    <img src="images/AppointmentAlertsImages/SarahWilsonPersona.png" class="caseStudyMedImg" title="User Persona">
  </div>
 
         <h3 id="ideationBB">Ideation</h3>
-      <p>After conducting my research, I suggested the implementation of a notification system. This system would manifest as a modal dialogue, serving as an interstitial page guiding users to the relevant Appointment modal. It's important to note that this proposed modification would introduce an additional step in the user flow.</p>
+      <p>After conducting my research, I suggested the implementation of a notification system to our product team. This system would manifest as a modal dialogue, serving as an interstitial page guiding users to the relevant Appointment modal. It's important to note that this proposed modification would introduce an additional step in the <b>user flow.</b></p>
    
       <div>
-        <img src="images/AppointmentAlertsImages/UserFLow1.png" class="caseStudySmallImgNoBorder">
+        <img src="images/AppointmentAlertsImages/UserFLow1.png" class="caseStudySmallImgNoBorder" title="User Flow">
       </div>
    
-      <p>It's worth considering the implementation of notifications for rescheduling and canceling appointments as well. These notifications would showcase the patient's upcoming appointment status, date, time, and the associated planned procedure codes. It's important to note that the planned procedure codes were identified as a top priority by the majority of participants. Additionally, users would have the option to take an edit action using the pencil icon, enabling them to exit the current flow and edit the appointment of their choice. Here are some of the sketches that I made:</p>
+      <p>It's worth considering the implementation of notifications for rescheduling and canceling appointments as well. These notifications would showcase the patient's upcoming appointment status, date, time, and the associated planned procedure codes. It's important to note that the planned procedure codes were identified as a top priority by the majority of participants. Additionally, users would have the option to take an edit action using the pencil icon, enabling them to exit the current flow and edit the appointment of their choice. <b>Here are some of the sketches that I made to explore this idea:</b></p>
     
       <div>
-        <img src="images/AppointmentAlertsImages/Sketches1.png" class="caseStudySmallImgNoBorder">
+        <img src="images/AppointmentAlertsImages/Sketches1.png" class="caseStudySmallImgNoBorder" title="Sketches">
       </div>
      
         <h3 id="prototypingBB">Prototyping</h3>
@@ -209,20 +209,21 @@
     
       
             <h3 id="testingBB">Testing</h3>
-            <p>I was able to demo the prototype with 4 users in virtual feedback sessions.</p>
+            <p>Now that we had a functional prototype, I wanted to conduct usability tests to evaluate the effectiveness of the appointment alerts feature. The purpose was to gather user feedback and insights to inform further improvements. Here is what we wanted to learn:</p>
+
+            <ul>
+              <li>Can users complete these flows?</li>
+              <li>Is this a valuable solution to users?</li>
+              <li>How do users expect to customize this feature?</li>
+              <li>Do users want a toast reminder if they don’t complete the flow?</li>
+           </ul>
+
+           <p>After creating a research plan and testing script, I led user feedback sessions and usability testing with 5 users.</p>
             <div class="caseStudyMedImgContainer">
               <img src="images/AppointmentAlertsImages/Test1.png" class="caseStudyMedImg">
            </div>
                 
-                <h6>What We Wanted to Learn:</h6>
-                <ul>
-                  <li>Can users complete these flows?</li>
-                  <li>Is this a valuable solution to users?</li>
-                  <li>How do users expect to customize this feature?</li>
-                  <li>Do users want a toast reminder if they don’t complete the flow?</li>
-                
-               </ul>
-               <h6>Key Takeaways From User Feedback:</h6>
+               <p>Here are the results from our tests:</p>
                <ul>
                 <li>100% are able to successfully complete the flow of booking, rescheduling, editing, and canceling appointments.</li>
                 <li>100% recognize the value of the proposed solution. This solved their problem!</li>
@@ -230,7 +231,7 @@
                 <li>80% want more quick actions: reschedule, cancel, and delete.</li>
                 <li>60% prefer to have the toast warning when scheduling gets off track.</li>
                 <li>60% expect to see procedure codes on the cancellation dialogue/s.</li>
-                <li>Users suggested implementing a feature to identify habitual offenders.</li>
+
              </ul>
              <h3 id="...">Iteration</h3>
              <p>Here is a screenshot of the affinity diagram where I synthesized the testing feedback:</p>
@@ -292,14 +293,14 @@
 </main>
 <section>
 <footer>
-  <div class="footerInner">
-   <p class="copyright">© 2024</p>
+   <div class="footerInner">
+    <p class="copyright">© 2024</p>
    <div class="footerLinks">
     <a href="https://www.linkedin.com/in/jason-wesley-andrews/" target="_blank"><img src="images/linkedin_logo_light.png" class="footerIcons"></a>
     <a href="mailto:jasonwesleyandrews@gmail.com"><img src="images/mail_logo_light.png" class="footerIcons"></a>
    </div>
   </div>
- </footer>
+</footer>
 </body>
 <script src="index.js"></script>
 </html>
