@@ -567,12 +567,7 @@ footer {
     padding-top: 20px;
 }
 
-.footerLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;  
-}
+
 
 .caseStudy:hover {
     transform: scale(1.03); 
