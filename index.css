@@ -535,7 +535,7 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 64px;px;
+    height: 64px;
     width: 100%;
     position: relative;
     z-index: 3;  
@@ -581,7 +581,7 @@ footer {
     height: 50px;
     border-radius: 8px;
 }
-
+}
 @media (max-width: 600px) {
 
 .aboutMeContainer {
@@ -674,7 +674,7 @@ article {
 }
 
 @media (max-width: 900px) { 
- }
+ 
  .caseStudyMedImg{
      width: 100%
 }
