@@ -535,7 +535,7 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height:65px;
+    height: 64px;px;
     width: 100%;
     position: relative;
     z-index: 3;  
@@ -562,9 +562,9 @@ footer {
 
 .footerIcons {
     height: 22px;
-    padding: 16px;
+    padding-left : 16px;
     padding-right: 0px;
-    padding-top: 20px;
+   padding-top: 4px;
 }
 
 
