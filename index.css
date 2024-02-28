@@ -438,6 +438,21 @@ h6 {
     margin-top: 20px;
 }
 
+.designIcon {
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #C2C2C2;
+    border-width: 1px;
+    transition: all .2s ease-out;  
+}
+
+.designIcon:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 8px #CECECE;   
+}
+
 .designIconsWrap {
     display: flex;
     justify-content: space-between;
@@ -454,17 +469,8 @@ h6 {
     border-width: 1px;
     transition: all .2s ease-out;  
 }
-.designIcon {
-    width: 55px;
-    height: 55px;
-    border-radius: 8px;
-    border: solid;
-    border-color: #C2C2C2;
-    border-width: 1px;
-    transition: all .2s ease-out;  
-}
 
-.designIcon:hover {
+.designIconWrap:hover {
     transform: scale(1.05); 
     box-shadow: 0px 4px 8px #CECECE;   
 }
