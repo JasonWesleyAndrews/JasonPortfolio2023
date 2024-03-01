@@ -172,28 +172,28 @@
         <h3 id="prototyping" class="caseStudyAnchor">Prototyping</h3>
         <p>Using Figma, I created <b>mockups</b> for all of the screens so that I could have a working prototype to experience the flows. Here is the modal used in the booking flow, showing all of the patient’s appointments, when the user clicks ‘Schedule an Appointment’ and selects a patient from the Schedule page:</p>
        
-        <div>
-          <img src="images/AppointmentAlertsImages/S1Appointments.png" class="caseStudySmallImgNoBorder" title="Mockup">
-        </div>
-    
+        <div class="caseStudyMedImgContainer">
+          <img src="images/AppointmentAlertsImages/S1Appointments.png" class="caseStudyMedImg" title="Mockup">
+       </div>
+
         <p>Below is the <b>Appointment modal</b> used to enter and edit appointment details. This is an existing part of the appointment booking flow, I am just showing it for context:</p>
        
     
-        <div>
-         <img src="images/AppointmentAlertsImages/S1Appointment.png" class="caseStudyLargeImg" title="Appointment modal">
+        <div class="caseStudyMedImgContainer">
+         <img src="images/AppointmentAlertsImages/S1Appointment.png" class="caseStudyMedImg" title="Appointment Modal">
         </div>
 
         <p>After the appointment details are entered, the appointment can be scheduled. The appointment appears as a small orange card on the left side of the screen. This page is showing an appointment that has been rescheduled during the flow where the user originally selected the action 'Creating New Appointment.' That's why there is a <b>toast</b> at the bottom of the screen, this is to give the user the option to complete their original task of scheduling a new appointment.</p>
        
-        <div>
-          <img src="images/AppointmentAlertsImages/Schedule1.png" class="caseStudyLargeImg" title="Toast Notification">
+        <div class="caseStudyMedImgContainer">
+          <img src="images/AppointmentAlertsImages/Schedule1.png" class="caseStudyMedImg" title="Toast Notification">
         </div>
 
         <p>Below is a modal that appears when the user chooses to <b>reschedule</b> a patient's appointment. Take note of the <b>checkboxes</b> in a column within the table, where the relevant appointment is automatically selected. If the user wishes to reschedule multiple appointments simultaneously, they can also select other appointments using the checkboxes.</p>
      
-        <div>
-          <img src="images/AppointmentAlertsImages/S1Reschedule.png" class="caseStudySmallImgNoBorder" title="Reschedule Modal">
-        </div>
+        <div class="caseStudyMedImgContainer">
+          <img src="images/AppointmentAlertsImages/S1Reschedule.png" class="caseStudyMedImg" title="Reschedule Modal">
+       </div>
         
        <p>Below, you'll find the modals used when a user decides to <b>cancel</b> an appointment. Similar to the process of rescheduling, the user can select the corresponding appointment and use checkboxes to cancel multiple appointments simultaneously. Once appointments are canceled, the user is directed to a <b>confirmation dialogue</b> that prompts them to provide a cancellation reason. If more than one appointment is canceled simultaneously, the user will go through all the required confirmation dialogues.</p>
       
@@ -233,13 +233,36 @@
              </ul>
              <h3 id="iteration" class="caseStudyAnchor">Iteration</h3>
              <p>Participants successfully navigated through the flows and appreciated the convenience of viewing a patient's additional appointments while booking. However, many expressed a <b>desire for more functionality</b> within the dialogue. They anticipated features such as the option to <b>delete previously canceled appointments</b> and <b>schedule unscheduled ones</b>. Implementing these additions would necessitate creating <b>five distinct modals</b> for each user action. To better grasp the concepts, I took the initiative to <b>sketch out these ideas:</b></p>
-               <div>
-                <img src="images/AppointmentAlertsImages/Sketches2.png" class="caseStudySmallImgNoBorder" title="Sketches">
-               </div>  
              
+                <!-- carousel -->
+<div class="carousel-container">
+  <div class="carousel-wrapper">
+    <div class="carousel-item">
+      <img src="images/AppointmentAlertsImages/S2_mock_create.png" alt="Image 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/AppointmentAlertsImages/S2_mock_reschedule.png" alt="Image 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/AppointmentAlertsImages/S2_mock_schedule.png" alt="Image 3">
+    </div>
+    <div class="carousel-item">
+      <img src="images/AppointmentAlertsImages/S2_mock_cancel.png" alt="Image 3">
+    </div>
+    <div class="carousel-item">
+      <img src="images/AppointmentAlertsImages/S2_mock_delete.png" alt="Image 3">
+    </div>
+  </div>
+
+  <div class="carousel-controls">
+    <button class="control-btn" onclick="prevSlide()">&#10094;</button>
+    <button class="control-btn" onclick="nextSlide()">&#10095;</button>
+  </div>
+</div>
+
                <p>Following the creation of these sketches, I sought input from my manager, product owner, and lead developer. Subsequently, I developed <b>high-fidelity mockups</b> for these windows:</p>
                <div class="caseStudyMedImgContainer">
-                <img src="images/AppointmentAlertsImages/S2Reschedule.png" class="caseStudyLargeImg" title="Hi-Fidelity Mockup">
+                <img src="images/AppointmentAlertsImages/S2Reschedule.png" class="caseStudyMedImg" title="Hi-Fidelity Mockup">
              </div>
 
                <p>Initially, everything appeared feasible, but the more I explored this solution, the more it struck me as <b>excessively intricate</b>. Introducing a new modal into the user flows and incorporating a toast notification when users didn't complete the original process started to feel <b>unnecessarily complex</b>. Considering the development resources needed for creating five new windows, along with the additional toast notification for incomplete flows, and the extra clicks required from users, <b>it no longer seemed like a worthwhile solution.</b></p>
