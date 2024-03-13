@@ -311,15 +311,15 @@ h6 {
 .aboutMeImg {
    width: 250px;
    float: right;
-   margin: 5px 0px 20px 20px;
-   border-radius: 4px;
+   margin: 6px 0px 20px 20px;
+   border-radius: 8px;
    box-shadow: 4px 4px 8px #CECECE;
 }
 .aboutMeImgLeft {
     width: 250px;
     float: left;
-    margin: 5px 20px 20px 0px;
-    border-radius: 4px;
+    margin: 6px 20px 20px 0px;
+    border-radius: 8px;
     box-shadow: 4px 4px 8px #CECECE;
 }
 
