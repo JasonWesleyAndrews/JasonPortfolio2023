@@ -12,8 +12,8 @@ body {
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
     color: #000000; 
- 
 }
+
 .grayBG {
     position: fixed;
     display: none;
@@ -89,7 +89,6 @@ li:hover {
     overflow: hidden;
 }
 
-
 .splashLeftOuterContainer {
     display: flex;
     justify-content: center;
@@ -125,11 +124,9 @@ li:hover {
     font-size: 24px;
 }
 
-
 .seeMyWorkButton {
     border-radius: 8px ;
     padding: 8px 8px;
-
     background-color: #fff;
     color: 000000;
 }
@@ -139,25 +136,27 @@ li:hover {
     background-color: #F0F2F2;
 }
 
-
 .heroImageContainer {
     width: 50%;
 }
 
 .heroImage{
-    width: 100%;
+    width: 100%;  
+    transition: transform 0.5s ease-in-out;
 }
 
+.heroImage:hover{
+    transform: scale(1.05);  
+}
+   
 .keyValueOfferingOuterContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    
     background-size: cover; 
     background-position: center;
-    
     
 }
 .keyValueOfferingContainer {
@@ -169,7 +168,6 @@ li:hover {
 }
 
 /* header styles */
-
 
 #header {
     transition: top .3s ease-in-out;
@@ -301,6 +299,7 @@ nav ul {
 }
 
   /* text styles */ 
+
   b, strong {
     font-weight: 600;
 }
@@ -414,7 +413,7 @@ h6 {
     box-shadow: 4px 4px 8px #CECECE;
 }
 
-/* my work styles on Home page */
+/* my work styles*/
 .myWorkContainer {
     display: flex;
     align-items: center;
@@ -568,54 +567,6 @@ h6 {
     justify-content: center;
 }
 
-
-
-.designIcons {
-    display: flex;
-    justify-content: space-between;
-    transition: all .2s ease-out;
-    margin-top: 20px;
-    margin-bottom: 12px;
-}
-
-.designIcon {
-    width: 55px;
-    height: 55px;
-    border-radius: 8px;
-    border: solid;
-    border-color: #C2C2C2;
-    border-width: 1px;
-    transition: all .2s ease-out;  
-}
-
-.designIcon:hover {
-    transform: scale(1.05); 
-    box-shadow: 0px 4px 8px #CECECE;   
-}
-
-.designIconsWrap {
-    display: flex;
-    justify-content: space-between;
-    transition: all .2s ease-out;
-    margin-top: 20px;
-    margin-bottom: 12px;
-}
-
-.designIconWrap {
-    width: 55px;
-    height: 55px;
-    border-radius: 8px;
-    border: solid;
-    border-color: #C2C2C2;
-    border-width: 1px;
-    transition: all .2s ease-out;  
-}
-
-.designIconWrap:hover {
-    transform: scale(1.05); 
-    box-shadow: 0px 4px 8px #CECECE;   
-}
-
 .MedImgWrapper{
     display: flex;
     justify-content: center;
@@ -735,8 +686,6 @@ footer {
    padding-top: 4px;
 }
 
-
-
 .caseStudy:hover {
     transform: scale(1.03); 
 }
@@ -801,8 +750,6 @@ footer {
     .splashLeftTextContainer {
         padding: 100px;
       width: 320px;
-        
-        
     }
     
     .splashTitleText {
@@ -860,9 +807,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
- 
-    
-    
 }
 
 }

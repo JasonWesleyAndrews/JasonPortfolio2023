@@ -83,27 +83,4 @@ $("#mobileNav").on("click", function() {
     wrapper.style.transform = 'translateX(' + transformValue + ')';
   }
 
-
- //carousel //
-
-
-
-  //header hide on scroll //
-    /*
-    if (window.scrollY === 0)
-    var prevScrollPos = window.pageYOffset;
-    var header = document.getElementById("header");
-
-    window.onscroll = function() {
-      if (window.innerWidth > 600){
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollPos > currentScrollPos) {
-        header.style.top = "0";
-      } else {
-        header.style.top = "-65px";
-      }
-      prevScrollPos = currentScrollPos;
-    }
-    };
-    if (window.innerWidth > 600)
-    */
+ 
