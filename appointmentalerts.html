@@ -91,13 +91,13 @@
     <img src="images/AppointmentAlertsImages/AppointmentAlertsMock.png" class="caseStudySmallImgNoBorder">
  </div>
 
-    <h3>The Problem</h3>
+    <h3>The problem</h3>
     <p>Users lose track of what other appointments the patient has during the booking flow.</p>
-    <h3>The Solution</h3>
+    <h3>The solution</h3>
     <p>Adding an All Appointments section to the Appointment modal dialogue, allowing the user to clearly see the scheduled and pending appointments for that patient.</p>
-    <h3>The User</h3>
+    <h3>The user</h3>
     <p>A front office worker for a dentist, orthodontist, or oral surgeon. Typically some type of patient-facing front desk worker who would manage appointments for patients.</p>
-    <h3>The Goal</h3>
+    <h3>The goal</h3>
     <p>Allowing the user to view all of the patient’s other appointments, reducing context switching during appointment management flows.</p>
    
      <!-- 
@@ -113,7 +113,7 @@
       <a href="#testing2"><img src="images/designIcons/test_icon.png" class="designIconWrap"></a>
      </div>
    -->
-     <h3 id="empathize" class="caseStudyAnchor">Empathize / Research</h3>
+     <h3 id="empathize" class="caseStudyAnchor">Researching to find out why</h3>
      <p>One of the frequent user requests we received was the desire for an alert system when scheduling appointments for patients who already have existing appointments. The product owner highlighted this need during a meeting where we discussed various user requests. Subsequently, I was tasked with conducting research to devise a solution. I created a <b>research plan</b> and <b>interview script</b>, and then proceeded to <b>lead interviews</b> with <b>9</b> users who had specifically requested this feature.</p>
      <div class="caseStudyMedImgContainer">
       <img src="images/AppointmentAlertsImages/UserInterviewsScreenshot1.png" class="caseStudyMedImg" title="User Interviews">
@@ -133,7 +133,7 @@
         <li>How would they use this feature?</li>
      </ul>
  
-    <h3 id="define" class="caseStudyAnchor">Define</h3>
+    <h3 id="define" class="caseStudyAnchor">Defining the problem</h3>
    <p>Participants strongly supported the need for an alert when scheduling a patient with an existing appointment to prevent accidental double bookings, calendar blockages, confusion, and skewed production estimates. An appointment notification could facilitate combining appointments for improved practice efficiency. Moreover, a lack of awareness about a patient's future appointments was potentially reflecting poorly on staff.</p>
  
    <blockquote class="blockquote">
@@ -161,7 +161,7 @@
     <img src="images/AppointmentAlertsImages/SarahWilsonPersona.png" class="caseStudyMedImg" title="User Persona">
  </div>
 
-        <h3 id="ideation" class="caseStudyAnchor">Ideation</h3>
+        <h3 id="ideation" class="caseStudyAnchor">Finding a solution</h3>
       <p>After conducting my research, I suggested the implementation of a notification system to our product team. This system would manifest as a modal dialogue, serving as an interstitial page guiding users to the relevant Appointment modal. It's important to note that this proposed modification would introduce an additional step in the <b>user flow.</b></p>
    
       <div>
@@ -174,7 +174,7 @@
         <img src="images/AppointmentAlertsImages/Sketches1.png" class="caseStudySmallImgNoBorder" title="Sketches">
        </div>
      
-        <h3 id="prototyping" class="caseStudyAnchor">Prototyping</h3>
+        <h3 id="prototyping" class="caseStudyAnchor">Building a prototype</h3>
         <p>Using Figma, I created <b>mockups</b> for all of the screens so that I could have a working prototype to experience the flows. Here is the modal used in the booking flow, showing all of the patient’s appointments, when the user clicks ‘Schedule an Appointment’ and selects a patient from the Schedule page:</p>
        
 
@@ -216,7 +216,7 @@
         </div>
      </div>
       
-            <h3 id="testing" class="caseStudyAnchor">Testing</h3>
+            <h3 id="testing" class="caseStudyAnchor">Testing solution #1</h3>
             <p>Now that we had a functional <b>prototype</b>, we wanted to conduct <b>usability tests</b> to evaluate the effectiveness of the appointment alerts feature. The purpose was to gather user feedback and insights to inform further improvements. <b>Here is what we wanted to learn:</b></p>
 
             <ul>
@@ -285,14 +285,14 @@
            <p>After careful consideration, I concluded that the optimal solution was to create a dedicated scheduling page for each patient. This page would feature a comprehensive list of all appointments and provide a functional area where users could easily view and edit the specific appointment they were focusing on. While presenting this idea to my product team, I encountered resistance to a complete redesign of the booking system. As a compromise, <b>I suggested adding an All Appointments section to the existing Appointment window</b>. This section would showcase all the desired functionalities requested by our users, thereby eliminating the necessity to develop new windows and <b>simplifying the solution’s user flow and development efforts.</b></p>
             
            
-           <h3 id="prototyping2" class="caseStudyAnchor">Prototyping 2</h3>
+           <h3 id="prototyping2" class="caseStudyAnchor">Pivoting to a new solution</h3>
              <p>Adding an All Appointments section to the Appointment modal was an easy task. The existing window provided a solid foundation, and I simply augmented it by <b>introducing a new section on the right-hand side within the accordion</b>. This new section features cards containing all the essential appointment details from the previous design, now equipped with the actions users had been requesting. To showcase and validate this enhanced functionality, I developed a <b>prototype</b> for demonstration and testing purposes.</p>
                <div class="caseStudyMedImgContainer">
                 <img src="images/AppointmentAlertsImages/S3Appointment.png" class="caseStudyLargeImg" title="Prototype">
              </div>
            
        
-           <h3 id="testing2" class="caseStudyAnchor">Testing 2</h3>
+           <h3 id="testing2" class="caseStudyAnchor">Testing solution #2</h3>
            <p>
             I tested the appointment alerts feature with <b>7</b> users to assess its effectiveness. The goal was to collect user feedback and insights, which will be used to validate the design and make informed enhancements before moving forward with the development phase.</p>
            <div class="caseStudyMedImgContainer">
