@@ -15,15 +15,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
 .grayBG {
     position: fixed;
     display: none;
@@ -122,15 +113,15 @@ li:hover {
 
 .splashTitleSubText {
     color:#ffffff;
-    font-weight: 200;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 28px;
 }
 
 .splashTitleHeadline {
     color:#ffffff;
     padding-top: 28px;
     padding-bottom: 28px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 24px;
 }
 
@@ -726,11 +717,11 @@ footer {
     }
     
     .splashTitleText {
-       font-size: 40px;
+       font-size: 36px;
     }
     
     .splashTitleSubText {
-        font-size: 32px;
+        font-size: 24px;
     }
     
     .splashTitleHeadline {
@@ -767,7 +758,7 @@ footer {
     }
     
     .splashTitleSubText {
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .splashTitleHeadline {
