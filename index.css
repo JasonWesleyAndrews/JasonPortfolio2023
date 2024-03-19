@@ -14,6 +14,16 @@ body {
     color: #000000; 
 }
 
+
+
+
+
+
+
+
+
+
+
 .grayBG {
     position: fixed;
     display: none;
@@ -720,7 +730,7 @@ footer {
     }
     
     .splashTitleSubText {
-        font-size: 30px;
+        font-size: 32px;
     }
     
     .splashTitleHeadline {
@@ -757,7 +767,7 @@ footer {
     }
     
     .splashTitleSubText {
-        font-size: 36px;
+        font-size: 28px;
     }
     
     .splashTitleHeadline {

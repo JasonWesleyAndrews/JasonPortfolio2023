@@ -20,39 +20,7 @@ $("#mobileNav").on("click", function() {
     document.getElementById("mobileNav").innerHTML = "Menu";
   }
 });
-//old mobile nav code//
-/*
-$("#mobileNav").on("click", function() {
-    if ( $(".subNav").first().is( ":hidden" ) ) {
-      $(".subNav").slideDown("medium");
-      $(".grayBG").fadeIn("medium");
-      $('html, body').css({
-        overflow: 'hidden',
-    })
-      document.getElementById("mobileNav").innerHTML = "X";
-      
-    } else {
-      $(".subNav").slideUp("medium");
-      $(".grayBG").fadeOut("medium");
-      $('html, body').css({
-        overflow: 'auto',  
-    })
-      document.getElementById("mobileNav").innerHTML = "Menu";
-    }
-  });
 
-  function myFunction(x) {
-    if (x.matches) {
-      $(".subNav").slideUp("medium");
-      $(".grayBG").fadeOut("medium");
-      
-      document.getElementById("mobileNav").innerHTML = "Menu";
-    } 
-  }
-  var x = window.matchMedia("(min-width: 600px)")
-  myFunction(x)
-  x.addListener(myFunction)
-*/
 
    //carousel //
 
@@ -83,4 +51,4 @@ $("#mobileNav").on("click", function() {
     wrapper.style.transform = 'translateX(' + transformValue + ')';
   }
 
- 
+  
