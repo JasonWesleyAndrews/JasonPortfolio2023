@@ -169,6 +169,21 @@ li:hover {
     width: 70%;
 }
 
+.homepageQuoteBubble{
+   
+
+    background-color: white;
+    width: 319px;
+    height: 319px;
+    background-color: #F7F9F9;
+    padding: 20px;
+    
+    margin: 12px;
+    border-radius: 8px;
+
+    
+}
+
 /* header styles */
 
 #header {
