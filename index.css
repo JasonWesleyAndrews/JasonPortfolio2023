@@ -5,6 +5,9 @@ html {
 }
 
 body {
+    background-image: url('images/Waves-background.png');
+    background-size: cover;
+    background-position: center;
     background-color: #F8F8F8;
     margin-left: auto;
     margin-right: auto;
@@ -152,6 +155,8 @@ li:hover {
 }
    
 .keyValueOfferingOuterContainer{
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -796,6 +801,8 @@ footer {
     }
 
     .keyValueOfferingContainer {
+        
+        
         display: flex;
         flex-direction:column;
         justify-content: center;
