@@ -23,14 +23,18 @@ body {
     display: none;
     background-color: gray;
     height: 100%;
-    width: 1200px;
-    opacity: 85%;    
+    width: 100%;
+    opacity: 80%;  
+    z-index: 1;
+  
+  
+     
 }
 
 main {
     display: flex;
     flex-direction: row;
-    z-index: 4;
+    z-index: 5;
 }
 
 article {
@@ -241,7 +245,7 @@ header {
     box-shadow: 0px 1px 2px #CECECE;
     position: fixed;  
     width: 100%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .headerInner {
@@ -520,11 +524,17 @@ h6 {
     margin: auto;
     overflow: hidden;
     position: relative;
+    z-index: 0;
+    
+    
+    
+   
   }
 
   .carousel-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    
   }
 
   .carousel-item {
