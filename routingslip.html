@@ -89,17 +89,47 @@
     <div class="imgLimit">
     <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
     </div>
-
-    <h3>The problem</h3>
-    <p>Dental practice management software users want a way to print a document that can be used to view and record pertinent information during patient appointments.</p>
-    <h3>The solution</h3>
-    <p>A customizable software feature within our product that allows users to print routing slips with all of the necessary information for the entire day’s schedule and/or an individual appointment.</p>
-    <h3>The user</h3>
-    <p>Someone who works in the front office for a dentist, orthodontist, or oral surgeon. Typically the office manager, or some type of patient-facing front desk worker.</p>
-    <h3>The goal</h3>
-    <p>To help our customers by giving their staff the tools that they need to efficiently see patients. A reduction in our customer's labor cost makes our software more valuable.</p>
-   
  
+    <div class="contentCard">
+      <div class="contentCardInner">
+       <div class="iconAndLabel">
+        <img src="images/designIcons/problem_icon.png" class="cardIcon">
+        <h6>The Problem</h6>
+       </div>
+       <p>Dental practice management software users want a way to print a document that can be used to view and record pertinent information during patient appointments.</p>
+      </div>
+    </div>
+      
+    <div class="contentCard">
+      <div>
+        <div class="iconAndLabel">
+        <img src="images/designIcons/goal_icon.png" class="cardIcon">
+        <h6>The goal</h6>
+       </div>
+       <p>To help our customers by giving their staff the tools that they need to efficiently see patients. A reduction in our customer's labor cost makes our software more valuable.</p>
+      </div>
+    </div>
+  
+    <div class="contentCard">
+      <div>
+        <div class="iconAndLabel">
+        <img src="images/designIcons/user_icon.png" class="cardIcon">
+        <h6>The User</h6>
+       </div>
+       <p>Someone who works in the front office for a dentist, orthodontist, or oral surgeon. Typically the office manager, or some type of patient-facing front desk worker.</p>
+      </div>
+    </div>
+  
+    <div class="contentCard">
+      <div>
+        <div class="iconAndLabel">
+        <img src="images/designIcons/solution_icon.png" class="cardIcon">
+        <h6>The Solution</h6>
+       </div>
+       <p>A customizable software feature within our product that allows users to print routing slips with all of the necessary information for the entire day’s schedule and/or an individual appointment.</p>
+      </div>
+    </div>
+    
     
      <h3 id="empathize" class="caseStudyAnchor">Understanding user needs</h3>
      <p>This feature was requested by <b>80%</b> of our customers and prioritized by the business. I started this project by having a kick off meeting with my team, which included the product line manager, product owner, lead developer, and myself as the UX designer. We did a <b>know / don’t know</b> exercise to determine what we needed to learn from customers. We also conduced a <b>competitor analysis</b>, and reviewed requests for this feature from our customers.</p>
@@ -215,10 +245,16 @@
                     <li>Initially we were calling the additional content sections “Content Blocks” this confused users because they thought that turning that toggle on in the settings would block the content. So we changed it to “Display Additional Information” and this tested well.</li> 
                   </ul>
               
-                  <blockquote class="blockquote">
-                    <img src="images/designIcons/quote_icon_start.png" class="quoteIconStart">
-                    <p><i>“This will save us so much time. I have been printing our blank routing slips and writing in the patient information for each appointment!”</i> - Heather (user)</p>
-                  </blockquote>
+
+                  <div class="contentCard">
+                    <div>
+                      <div class="iconAndLabel">
+                      <img src="images/designIcons/quote_icon_start.png" class="cardIcon">
+                      <h6>Quote</h6>
+                     </div>
+                     <p><i>“This will save us so much time. I have been printing our blank routing slips and writing in the patient information for each appointment!”</i> - Heather, user</p>
+                    </div>
+                  </div>
 
                     <h3>Conclusion</h3>
                     <p>This feature reached development completion and was deployed into production in December 2022. In the post-release phase of the feature, I conducted interviews with users, monitored feedback in UserVoice, and personally visited two offices utilizing the new functionality. Through these interactions, I identified two technical challenges that required resolution. Firstly, there was a performance issue where attempting to print a substantial number of routing slips in certain scenarios could lead to timeouts and hinder other functionalities, such as appointment bookings. This was successfully addressed by implementing batch requests, promptly resolved by my development team. The second challenge involved a page break bug causing misalignment of printed routing slips. To rectify this, we ensured that if a routing slip spanned multiple pages, its content would occupy two full pages, preventing offset issues.</p>

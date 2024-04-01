@@ -5,9 +5,9 @@ html {
 }
 
 body {
-    background-image: url('images/Waves-background.png');
+
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-color: #F8F8F8;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +48,12 @@ article {
     margin-left: 216px;
 }
 
+.homePageLowerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .logo {
     width: 38px;
     display: flex;
@@ -80,6 +86,41 @@ a:hover {
 
 li:hover {
     color: #000000;
+}
+
+/* content card */
+
+.contentCard {
+    background-color: #F9F9F9;
+    padding: 16px;
+    padding-bottom: 2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 4px #DFDFDF;
+    border-radius: 8px;
+}
+
+.homeContentCard {
+    background-color: #F9F9F9;
+    width: 80%;
+    padding: 16px;
+    padding-bottom: 2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 4px #DFDFDF;
+    border-radius: 8px;
+}
+
+.iconAndLabel {
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 8px;
+}
+
+.cardIcon {
+    width: 30px;
+    height: 30px;
+    padding-right: 16px;
 }
 
 /* splash styles */
@@ -168,7 +209,7 @@ li:hover {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+   
 }
 
 .homepageQuoteBubble{
@@ -422,14 +463,14 @@ h6 {
    float: right;
    margin: 6px 0px 20px 20px;
    border-radius: 8px;
-   box-shadow: 4px 4px 8px #CECECE;
+   box-shadow: 4px 4px 8px #DFDFDF;
 }
 .aboutMeImgLeft {
     width: 250px;
     float: left;
     margin: 6px 20px 20px 0px;
     border-radius: 8px;
-    box-shadow: 4px 4px 8px #CECECE;
+    box-shadow: 4px 4px 4px #DFDFDF;
 }
 
 /* my work styles*/
@@ -460,7 +501,7 @@ h6 {
     text-align: center;
     overflow: hidden;
     margin: 12px;
-    box-shadow: 2px 2px 4px #CECECE;
+    box-shadow: 4px 4px 4px #DFDFDF;
     border-radius: 8px;
     transition: all .2s ease-out;
 }
@@ -634,19 +675,9 @@ h6 {
     margin-bottom: 10px;
 }
 
-.blockquote {
-    display: flex;
-    justify-content: left;
-    font-size: 14px ;
-    margin: 20px;
-    max-width: 100%;    
-}
 
-.quoteIconStart {
-    width: 30px;
-    height: 30px;
-    padding-right: 20px;
-}
+
+
 
 aside {
     position:fixed;
@@ -758,6 +789,12 @@ footer {
         padding-top: 60px;
         height: 850px;
         overflow: hidden;
+    }
+
+    .homeContentCard {
+     
+        width: 70%;
+    
     }
     
     .splashLeftOuterContainer {
