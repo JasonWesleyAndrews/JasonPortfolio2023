@@ -209,11 +209,10 @@ li:hover {
     justify-content: center;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    
     background-size: cover; 
     background-position: center;
-    padding-left: 16px;
-    padding-right: 16px;
+   
 }
 .keyValueOfferingContainer {
     display: flex;
