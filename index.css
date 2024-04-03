@@ -106,7 +106,17 @@ li:hover {
     padding: 16px;
     padding-bottom: 2px;
     margin-top: 16px;
-    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    
+}
+
+.homeContentCardFull {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 16px;
+    padding-bottom: 2px;
+    margin-top: 16px;
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     
@@ -195,8 +205,6 @@ li:hover {
 
    
 .keyValueOfferingOuterContainer{
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,13 +212,15 @@ li:hover {
     padding-bottom: 40px;
     background-size: cover; 
     background-position: center;
-    
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .keyValueOfferingContainer {
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    
    
 }
 
@@ -566,7 +576,7 @@ h6 {
   }
 
   .control-btn {
-    background: #000;
+    background: #020202;
     color: #fff;
     border: none;
     padding: 8px;
@@ -842,18 +852,13 @@ footer {
         width: 100%;
     }
 
-    .keyValueOfferingContainer {
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-    }
+    
 }
 
 
 @media (max-width: 600px) {
 
+    
 .aboutMeContainer {
     padding-left: 12px;
     padding-right: 12px;   
@@ -949,6 +954,6 @@ article {
      width: 100%
 }
 .carousel-container {
-    width: 100%;
+    width: 90%;
   }
 }
