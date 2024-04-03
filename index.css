@@ -5,7 +5,6 @@ html {
 }
 
 body {
-
     background-size: cover;
     background-position: left;
     background-color: #F9F9F9;
@@ -14,7 +13,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
-    color: #000000; 
+    color: #020202; 
 }
 
 
@@ -25,10 +24,7 @@ body {
     height: 100%;
     width: 100%;
     opacity: 80%;  
-    z-index: 1;
-  
-  
-     
+    z-index: 1;  
 }
 
 main {
@@ -77,19 +73,19 @@ article {
 
 a {
    text-decoration: none;
-   color: #000000;
+   color: #020202; 
 }
 
 a:visited {
-    color: #000000;
+    color: #020202; 
 }
 
 a:hover {
-    color: #000000;   
+    color: #020202;   
 }
 
 li:hover {
-    color: #000000;
+    color: #020202; 
 }
 
 /* content card */
@@ -100,7 +96,6 @@ li:hover {
     padding-bottom: 2px;
     margin-top: 16px;
     margin-bottom: 16px;
-  
     border-radius: 8px;
     border: 1px solid #E6E6E6;
 }
@@ -112,7 +107,6 @@ li:hover {
     padding-bottom: 2px;
     margin-top: 16px;
     margin-bottom: 16px;
-  
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     
@@ -144,7 +138,7 @@ li:hover {
 .splashLeftOuterContainer {
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #020202; 
     width: 50%;
 }
 .splashLeftTextContainer {
@@ -182,7 +176,7 @@ li:hover {
     border-radius: 8px ;
     padding: 6px 8px;
     background-color: #fff;
-    color: 000000;
+    color: #020202; 
 }
 
 .seeMyWorkButton:hover {
@@ -265,7 +259,7 @@ header {
 }
 
 hr {
-    border-top: .5px solid grey;
+    border-top: .5px solid #E6E6E6;
 }
 
 ol {
@@ -300,7 +294,7 @@ nav {display: flex;
 
 .mobileNav:hover {
     box-shadow: 2px 2px 4px #DFDFDF;
-    color: #000000;
+    color: #020202; 
     } 
 
 .subNav {
@@ -321,7 +315,7 @@ nav {display: flex;
 }
 
 .current a {
-    color: #000000;
+    color: #020202; 
     text-decoration: underline;
     font-weight: 600;
 }
@@ -346,7 +340,7 @@ li {
 
 .contactButton {
     border-radius: 8px ;
-    background-color: #000000;
+    background-color: #020202; 
     color: white;
 }
 
@@ -385,7 +379,6 @@ h1 {
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
 h2 {
@@ -404,7 +397,7 @@ h3 {
 }
 
 h4 {
-    font-size: 32px;
+  font-size: 32px;
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -414,8 +407,7 @@ h4 {
 h5 {
     font-size: 16px;
     margin: 8px 0px 0px 0px;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
 
 h6 {
@@ -429,7 +421,6 @@ h6 {
     margin-block-end: 0px;
     line-height: 20px;
     font-weight: 400;
-
 }
 
 .heading {
@@ -447,15 +438,12 @@ h6 {
     font-size: 14px;  
 }
 
-/* home page styles */
-
-.mainIcons { height: 22px;}
-
 /* about me page styles */
 .heading {
     margin: 0px 0px 0px 0px;
     text-align: center;
 }
+
 .aboutMeContainer {
     display: flex;
     align-items: center;
@@ -463,8 +451,8 @@ h6 {
     padding-left: 16px;
     padding-right: 16px;
     padding-top:16px
-    
 }
+
 .aboutMeContent {
     width: 100%;
     max-width: 900px;
@@ -476,19 +464,17 @@ h6 {
    float: right;
    margin: 6px 0px 20px 20px;
    border-radius: 8px;
-  
-
 }
+
 .aboutMeImgLeft {
     width: 250px;
     float: left;
     margin: 6px 20px 20px 0px;
     border-radius: 8px;
-    
-
 }
 
 /* my work styles*/
+
 .myWorkContainer {
     display: flex;
     align-items: center;
@@ -519,8 +505,6 @@ h6 {
 }
 
 .caseStudyCard:hover {
-
-   
     background-color: #F2F2F2;
     box-shadow: 2px 2px 4px #DFDFDF;
 }
@@ -534,10 +518,6 @@ h6 {
     border-radius: 11px;
     height: 300px;
     border: 1px solid #E6E6E6;
-   
-
-
-
 }
 
 .caseStudyPic {
@@ -546,39 +526,21 @@ h6 {
     height: auto;
 }
 
-
-.caseStudy {
-    background-color: white;
-    width: 319px;
-    height: 319px;
-    text-align: center;
-    overflow: hidden;
-    margin: 12px;
-    box-shadow: 2px 2px 4px #DFDFDF;
-    border-radius: 8px;
-    transition: all .2s ease-out;
-}
-
-
 /* case study styles for individual pages */
 
 /* carousel */
+
 .carousel-container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     position: relative;
-    z-index: 0;
-    
-    
-    
-   
+    z-index: 0; 
   }
 
   .carousel-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    
   }
 
   .carousel-item {
@@ -626,9 +588,6 @@ h6 {
     padding-top: 0px;
     margin-bottom: 16px;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px #DFDFDF;
-
-
 }
 
 .GAPlogo {
@@ -701,8 +660,7 @@ h6 {
     border-color: #E8E8E8;
     border-width: 1px;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px #DFDFDF;
-
+    border: 1px solid #E6E6E6;
     margin-bottom: 10px;
 }
 
@@ -712,8 +670,7 @@ h6 {
     border-color: #E8E8E8;
     border-width: 1px;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px #DFDFDF;
-
+    border: 1px solid #E6E6E6;
     margin-bottom: 10px;
 }
 
@@ -723,8 +680,7 @@ h6 {
     border-color: #E8E8E8;
     border-width: 1px;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px #DFDFDF;
-
+    border: 1px solid #E6E6E6;
     margin-bottom: 10px;
 }
 
@@ -732,10 +688,6 @@ h6 {
     width: 100%;
     margin-bottom: 10px;
 }
-
-
-
-
 
 aside {
     position:fixed;
@@ -757,7 +709,7 @@ aside {
 /* footer styles*/
 
 footer {
-    background-color: #000000;
+    background-color: #020202; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -779,7 +731,7 @@ footer {
 }
 
 .copyright {
-    color: white;
+    color: #ffffff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -788,15 +740,17 @@ footer {
 }
 
 .footerIcons {
-    height: 22px;
+    height: 24px;
     padding-left : 16px;
     padding-right: 0px;
    padding-top: 4px;
 }
 
+/* grow on hover
 .caseStudy:hover {
     transform: scale(1.03); 
 }
+*/ 
 
 /* media queries */ 
 
@@ -850,15 +804,12 @@ footer {
     }
 
     .homeContentCard {
-     
         width: 70%;
-    
     }
     
     .splashLeftOuterContainer {
         display: flex;
         justify-content: center;
-        background-color: #000000;
         width: 100%;
         height: 340px;
     }
@@ -884,8 +835,7 @@ footer {
     }
      
     .heroImageContainer {
-        width: 100%;
-        
+        width: 100%; 
     }
     
     .heroImage{
@@ -893,8 +843,6 @@ footer {
     }
 
     .keyValueOfferingContainer {
-        
-        
         display: flex;
         flex-direction:column;
         justify-content: center;
@@ -903,30 +851,7 @@ footer {
     }
 }
 
-@media (max-width: 740px) {
 
-.designIcon {
-    width: 50px;
-    height: 50px;
-    border-radius: 8px;
-}
-
-.designIconWrap {
-    width: 50px;
-    height: 50px;
-    border-radius: 8px;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 8px;
-}
-
-.designIconsWrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-}
 @media (max-width: 600px) {
 
 .aboutMeContainer {
@@ -963,7 +888,7 @@ footer {
 .mobileNav { 
     display: flex; 
     border-radius: 8px ;
-    border-color: #000000;
+    border-color: #020202; 
     border-style: inset;
     border-width: thin;
     margin: 0px 10px;
@@ -1001,23 +926,11 @@ article {
     width: 100%;
    }
 
-.caseStudy {
-    width: 100%;
-    height: 355px;
-    margin: 12px 0px 12px 0px;
-}  
-
 .caseStudyCard {
     box-sizing: border-box;
     width: 100%;
     margin: 12px 0px 12px 0px;
 }
-
-
-
-
-
-
 
 .headerInner {
     padding-left: 12px;
@@ -1037,6 +950,5 @@ article {
 }
 .carousel-container {
     width: 100%;
-   
   }
 }
