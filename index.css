@@ -38,6 +38,7 @@ article {
     max-width: 900px;
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 32px;
 }
 
 .scrollContentRight {
@@ -58,7 +59,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
+    
     
 }
 .logo {
@@ -471,13 +472,13 @@ h6 {
     padding-left: 16px;
     padding-right: 16px;
     padding-top:16px;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .aboutMeContent {
     width: 100%;
     max-width: 900px;
-    padding-bottom: 20px;
+    
 
 }
 .aboutMeImg {
@@ -874,7 +875,8 @@ footer {
     
 .aboutMeContainer {
     padding-left: 12px;
-    padding-right: 12px;   
+    padding-right: 12px; 
+    margin-bottom: 20px;  
 }
 
 .imgLimit {
