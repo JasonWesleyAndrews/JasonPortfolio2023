@@ -48,10 +48,17 @@ article {
     margin-left: 216px;
 }
 
+.homePageLowerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .homePageLowerContent{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
     
 }
 .logo {
@@ -102,7 +109,7 @@ li:hover {
 
 .homeContentCard {
     background-color: #ffffff;
-    width: 80%;
+    width: 85%;
     padding: 16px;
     padding-bottom: 2px;
     margin-top: 16px;
@@ -117,7 +124,6 @@ li:hover {
     padding: 16px;
     padding-bottom: 2px;
     margin-top: 16px;
-    
     border-radius: 8px;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
@@ -252,7 +258,6 @@ header {
     justify-content: center;
     background-color: white;
     box-shadow:  1px 1px 2px #DFDFDF;
-
     position: fixed;  
     width: 100%;
     z-index: 3;
@@ -388,7 +393,7 @@ h1 {
   font-size: 38px;
   white-space: nowrap;
   font-weight: 400;
-  margin-top: 0px;
+  margin-top: 8px;
   margin-bottom: 0px;
 }
 
@@ -402,9 +407,13 @@ h2 {
 
 h3 {
     font-size: 24px !important;
-    margin-top: 8px;
+    margin-top: 32px;
     margin-bottom: 0px;
     font-weight: 400;
+}
+
+.caseStudySubHeading {
+    margin-top: 8px;
 }
 
 h4 {
@@ -485,6 +494,7 @@ h6 {
 }
 
 /* my work styles*/
+
 
 .myWorkContainer {
     display: flex;
@@ -815,7 +825,7 @@ footer {
     }
 
     .homeContentCard {
-        width: 70%;
+        width: 75%;
     }
     
     .splashLeftOuterContainer {
