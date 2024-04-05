@@ -208,43 +208,17 @@ li:hover {
 }
 
 .heroImage{
-    width: 100%;  
-    
-}
-
-   
-.keyValueOfferingOuterContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    background-size: cover; 
-    background-position: center;
-   
-}
-.keyValueOfferingContainer {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    
-   
+    width: 100%;   
 }
 
 .homepageQuoteBubble{
-   
-
     background-color: white;
     width: 319px;
     height: 319px;
     background-color: #F7F9F9;
     padding: 20px;
-    
     margin: 12px;
-    border-radius: 8px;
-
-    
+    border-radius: 8px;  
 }
 
 /* header styles */
@@ -280,25 +254,25 @@ hr {
 }
 
 ol {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 2;  
 }
 
 ul {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 2;
 }
 
 header ul { 
     list-style-type: none;  
-    font-size: 14px; 
+    font-size: 15px; 
 }
 
 aside ul {
     list-style: none;
     padding: 0;
     margin-top: 0;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 nav {display: flex;
@@ -386,7 +360,7 @@ nav ul {
 
 p { 
     line-height: 2;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 0px;
 }
 
@@ -455,9 +429,7 @@ h6 {
     display: flex;
     justify-content: center;
 }
-.caseStudy p {
-    font-size: 14px;  
-}
+
 
 /* about me page styles */
 .heading {
@@ -596,7 +568,7 @@ h6 {
     padding: 8px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
   }
 
 .caseStudyLogos {
@@ -870,7 +842,7 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
 
     
 .aboutMeContainer {
