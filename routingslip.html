@@ -131,8 +131,8 @@
     </div>
     
     
-     <h3 id="empathize" class="caseStudyAnchor">Understanding user needs</h3>
-     <p>This feature was requested by <b>80%</b> of our customers and prioritized by the business. I started this project by having a kick off meeting with my team, which included the product line manager, product owner, lead developer, and myself as the UX designer. We did a <b>know / don’t know</b> exercise to determine what we needed to learn from customers. We also conduced a <b>competitor analysis</b>, and reviewed requests for this feature from our customers.</p>
+     <h3>Why did so many of our users want routing slips!?</h3>
+     <p>This feature was requested by <b>80%</b> of our customers and prioritized by the business. I started this project by having a kick off meeting with my team, which included the product manager, product owner, lead developer, and myself as the UX designer. We did a <b>know / don’t know</b> exercise to determine what we needed to learn from customers. We also conduced a <b>competitor analysis</b>, and reviewed requests for this feature from our customers.</p>
      <div class="caseStudyDoubleImgContainer">
       <div class="caseStudyDoubleImg"> 
         <img src="images/RSImages/competitor_slips.png" class="caseStudySmallImg" title="Competitor Analysis">
@@ -153,7 +153,7 @@
      <li>What are users currently doing to meet their needs without this feature?</li>
     </ul>
 
-      <h3 id="define" class="caseStudyAnchor">Defining the opportunuity</h3>
+      <h3>Defining the opportunuity</h3>
     <p>After <b>interviewing 3</b> users and <b>surveying 6</b>, I <b>synthesized</b> the findings by creating an <b>affinity diagram</b> with my product owner and lead developer. <b>Here is the affinity diagram that we created:</b></p>
     <div>
       <img src="images/RSImages/RS_affinity_diagram1.png" class="caseStudyLargeImg" title="Affinity Diagram">
@@ -174,7 +174,7 @@
           <img src="images/RSImages/Persona_RS.png" class="caseStudyMedImg" title="User Persona">
        </div>
       
-        <h3 id="ideation" class="caseStudyAnchor">Ideating on a solution</h3>
+        <h3>Designing a solution</h3>
       <p>Through my user interviews and surveying efforts, I collected a list of the patient details that customers wanted to have on the routing slip/s. I listed these out and used the <b>MoSCoW prioritization</b> method during a team brainstorming session to narrow down what to include on the actual routing slip. <b>Here is the design for the routing slip:</b></p>
      
      
@@ -182,7 +182,7 @@
       <div class="caseStudyMedImgContainer">
           <img src="images/RSImages/Routing_slip1.jpg" class="caseStudyMedImg" title="Routing Slip printout">
         </div>
-        <p>Based on my customer interviews, I gained an understanding of how this feature would be used. I created <b>user flows</b> on how to access the settings to turn this feature on and customize which content would print, as well as the 3 ways that the user can actually print a routing slip.</p>
+        <p>Based on my customer interviews, I gained an understanding of how this would be used. I created <b>user flows</b> on how to access the settings to turn this feature on and customize which content would print, as well as the 3 ways that the user can print a routing slip.</p>
      
            <div>
             <img src="images/RSImages/Routing Slip User Flow.png" class="caseStudySmallImgNoBorder" title="User Flows">
@@ -257,11 +257,12 @@
                   </div>
 
                     <h3>Conclusion</h3>
-                    <p>This feature reached development completion and was deployed into production in December 2022. In the post-release phase of the feature, I conducted interviews with users, monitored feedback in UserVoice, and personally visited two offices utilizing the new functionality. Through these interactions, I identified two technical challenges that required resolution. Firstly, there was a performance issue where attempting to print a substantial number of routing slips in certain scenarios could lead to timeouts and hinder other functionalities, such as appointment bookings. This was successfully addressed by implementing batch requests, promptly resolved by my development team. The second challenge involved a page break bug causing misalignment of printed routing slips. To rectify this, we ensured that if a routing slip spanned multiple pages, its content would occupy two full pages, preventing offset issues.</p>
-                      
-                    <div class="imgLimit">
-                      <img src="images/RSImages/routing_slip_mock.png" class="caseStudySmallImgNoBorder">
-                   </div>
+                    <p>This feature reached development completion and was deployed into production in December 2022. In the post-release phase of the feature, I conducted interviews with users, monitored feedback in UserVoice, and personally visited two offices utilizing the new functionality.</p>
+                    <div class="caseStudyMedImgContainer">
+                      <img src="images/RSImages/officeVisit.jpeg" class="caseStudyMedImg" title="Observing routing slips being used">
+                    </div>
+                    <p>Through these interactions, I identified two technical challenges that required resolution. Firstly, there was a performance issue where attempting to print a substantial number of routing slips in certain scenarios could lead to timeouts and hinder other functionalities, such as appointment bookings. This was successfully addressed by implementing batch requests, promptly resolved by my development team. The second challenge involved a page break bug ocassionally causing misalignment of printed routing slips. As intended, we re-visited the code to ensure that if a routing slip spanned multiple pages, its content would occupy two full pages, preventing offset issues.</p>
+                   
 
   </article>
 </div>
