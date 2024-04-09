@@ -244,8 +244,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     height: 60px   
 }
 
@@ -442,8 +442,8 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top:16px;
     margin-bottom: 32px;
 }
@@ -694,7 +694,7 @@ aside {
     width: 200px;
     height: 100%;
     background-color: #F0F0F0;
-    padding-left: 16px;
+    padding-left: 24px;
     padding-top: 10px;
     z-index: 0;
   }
@@ -722,8 +722,8 @@ footer {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px; 
+    padding-left: 24px;
+    padding-right: 24px; 
     width: 100%;    
 }
 
