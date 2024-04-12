@@ -686,6 +686,15 @@ h6 {
     margin-bottom: 10px;
 }
 
+.mobileScreenNoBorder {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 350px;
+}
+
+
+
+
 aside {
     position:fixed;
     top: 0;
