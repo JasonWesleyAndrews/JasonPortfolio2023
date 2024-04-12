@@ -692,7 +692,10 @@ h6 {
     max-width: 350px;
 }
 
-
+.sssLogo {
+    width: 70%;
+    margin-top: 30px;
+}
 
 
 aside {
@@ -800,6 +803,11 @@ footer {
 }
 
 @media (max-width: 780px) {
+
+    .sssLogo {
+        width: 100%;
+    }
+    
     .heroTopContainer{
         display: flex;
         flex-direction: column;
@@ -853,6 +861,7 @@ footer {
 
 
 @media (max-width: 620px) {
+
 
     
 .aboutMeContainer {
