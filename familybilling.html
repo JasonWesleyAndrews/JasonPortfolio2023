@@ -182,34 +182,36 @@
     <p>Once the original designer got to the ideation phase, she could not get buy-in for her solution because it involved too much change. <b>I was asked by the UX manager to come in and pair with her to help make progress</b>, this involved us taking a step back. After I was up-to-speed, and was able to create alignment with the team and stakeholders, the original designer was let go and <b>I was asked to be the lead designer on the project.</b></p>
     
         <h3>Struggling to find a solution</h3>
-      <p>The issue was apparent, but the solution remained unclear. Unlike many other dental practice management systems that operate on an account-based model, where patients are added to an account and a designated guarantor pays for the entire group, <b>our system takes a patient-based approach</b>. In our system, each individual patient must identify their guarantor, and there isn't a predefined "group." Instead, the system functions as a web of interconnected relationships rather than a structured group setup.</p>
-    <p>These relationships were already created by our users for their patients, and it can be quite complex! After multiple <b>ideation sessions with one of our software architects, product owner, and SME,</b> we thought the best move was to redesign the ledger to have tabs that will show a patient’s individual ledger, a combined ledger for the patients that this person is the guarantor for, and/or a combined ledger for the patient’s that are guaranteed by this patient. That’s right, <b>a patient who is not self-responsible can be the guarantor of other patients</b>. I sketched this up to share with my team so that we could talk it through.</p>
-   
-    <div class="caseStudyMedImgContainer">
+      <p>Unlike typical dental management systems that group patients under one account with a single guarantor, our system treats each patient separately. This means each patient must identify their own guarantor, creating a network of connections rather than groups.</p>
+    <p>These connections, set up by users, can be complex, but offer flexibility to non-traditional families. After brainstorming with my team, we decided to redesign the ledger adding tabs showing different groups based on the guarantor. I sketched these ideas to discuss with my team.</p>
+    <div class="caseStudyMedImgContainer"> 
       <img src="images/familyBillingImages/sketch.jpg" class="caseStudyMedImg" title="Sketch">
+    </div>
+    <p>A patient in the system could have a guarantor, but also be a guarantor. This is a person who is not financially self-responsible, but they are responsible for another person. This is an edge case, but we wanted to keep this existing functionality for our users, <b>this led us to a potential 3 tab system:</b></p>
+    <ul>
+      <li>(Patient Name) Shows the patient’s individual ledger.</li>
+      <li>(Guarantor For) Shows this patient’s combined guarantor ledger.</li>
+      <li>(Guaranteed By) Shows the combined ledger for this patient’s guarantor.</li>
+   </ul>
+
+   <div class="caseStudyMedImgContainer"> 
+    <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyMedImg" title="3 Tab Ledger">
+  </div>
+
+ 
+   <p>We wanted to give the user the option to print guarantor statements in <b>2</b> ways, either as a combined statement, or as individual statements. This would give the most complicated patient’s <b>5</b> print options. <b>Here are the user flows:</b>
+   </p>
+   <div>
+     <img src="images/familyBillingImages/userFlow_famBilling.png" class="caseStudySmallImgNoBorder" title="User Flows">
    </div>
-   
+
+              
+         
       <p>We all agreed that we should move forward in this direction. Using Figma, <b>I created mockups of every variation</b> that could exist in the system by creating a complex family example.</P>
         <div>
           <img src="images/familyBillingImages/Relationships_screenshots_famBilling.png" class="caseStudySmallImgNoBorder" title="All Mockup Variations">
         </div>
         
-        <p>A patient in the system could have a guarantor, but also be a guarantor. This is a person who is not financially self-responsible, but they are responsible for another person. This is an edge case, but we wanted to keep this existing functionality for our users, <b>this led us to a potential 3 tab system:</b></p>
-                <ul>
-                  <li>(Patient Name) Shows the patient’s individual ledger.</li>
-                  <li>(Guarantor For) Shows this patient’s combined guarantor ledger.</li>
-                  <li>(Guaranteed By) Shows the combined ledger for this patient’s guarantor.</li>
-               </ul>
-              
-             <div class="caseStudyMedImgContainer">
-              <img src="images/familyBillingImages/3_ledger_types.png" class="caseStudyMedImg" title="3 Tab Ledger">
-           </div>
-        <p>This solution involves allowing the user to view either a patient’s individual ledger, or a guarantor’s ledger, which will include all of the patients that they are financially responsible for. Statements and account history can then be printed as an individual or guarantor. We wanted to give the user the option to print guarantor statements in <b>2</b> ways, either as a combined statement, or as individual statements. This would give the most complicated patient’s <b>5</b> print options. <b>Here are the user flows:</b>
-          </p>
-          <div>
-            <img src="images/familyBillingImages/userFlow_famBilling.png" class="caseStudySmallImgNoBorder" title="User Flows">
-          </div>
-           
         <h3>Building a prototyping</h3>
         <p>I built an <b>interactive prototype using Figma</b> that allowed users to view guarantor and individual ledgers and print their statements.</p>
         <div class="caseStudyMedImgContainer">
@@ -229,7 +231,7 @@
       </div>
 
        <p><b>Here is the guarantor statement:</b></p>
-       <div class="caseStudyThreeImgContainer">
+       <div class="caseStudyDoubleImgContainer">
         <div class="caseStudyDoubleImg"> 
           <img src="images/familyBillingImages/connected stament1.png" class="caseStudySmallImg" title="Guarantor Statement">
         </div>
