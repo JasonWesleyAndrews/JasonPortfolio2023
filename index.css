@@ -1,5 +1,27 @@
 /* general styles */
 
+#typing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.cursor {
+    font-weight: bold;
+    animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        color: transparent;
+    }
+}
+
+
+
 html {
     scroll-behavior: smooth; 
 }
@@ -177,6 +199,7 @@ li:hover {
 }
 
 .splashTitleSubText {
+    margin-top: 0px;
     color:#ffffff;
     font-weight: 300;
     font-size: 28px;

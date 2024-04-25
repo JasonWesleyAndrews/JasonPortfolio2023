@@ -51,4 +51,20 @@ $("#mobileNav").on("click", function() {
     wrapper.style.transform = 'translateX(' + transformValue + ')';
   }
 
-  
+
+
+  // script.js
+const textElement = document.getElementById('text');
+const textToType = "Crafting human-centered solutions for positive impact.";
+let index = 0;
+
+function typeText() {
+    if (index < textToType.length) {
+        textElement.innerHTML += textToType.charAt(index);
+        index++;
+        setTimeout(typeText, 90); // Adjust typing speed
+    }
+}
+
+// Start typing effect after the page is loaded
+document.addEventListener("DOMContentLoaded", typeText);
